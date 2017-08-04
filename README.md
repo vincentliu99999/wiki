@@ -1,45 +1,48 @@
 # wiki
 
-https://vincentliu99999.github.io/wiki/ 
+## MkDocs 使用說明
+* [MkDocs](http://www.mkdocs.org/)
 
-## site generator: [MkDocs](http://www.mkdocs.org/)
-
-* installation
+### 安裝
+* 使用 [Homebrew](https://brew.sh)
 ```sh
 brew install mkdocs
 ```
 
-* Create a new project
+### 建立知識庫
+* 預設會產生`mkdocs.yml`, `docs/index.md`
 ```sh
 mkdocs new [dir-name]
 ```
 
-* Add smaple page
+* `mkdocs.yml`: 知識庫設定檔
+* `docs/`: markdown 文件目錄
+    - 修改 `mkdocs.yml`
+    ```yml
+    site_name: wiki
+    pages:
+        + Home: index.md
+        + About: about.md
+    ```
+* 新增文件
 ```sh
 curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' > docs/about.md
 ```
 
-* Modify mkdocs.yml
-```yml
-site_name: wiki
-pages:
-    - Home: index.md
-    - About: about.md
-```
-
-* Start the live-reloading docs server. local priview url: http://127.0.0.1:8000/
+* 本地端即時預覽，改文件也會即時更新，url: http://127.0.0.1:8000/
 ```sh
 mkdocs serve
 ```
 
-* Build the documentation site. Generating new directory `site`
+* 根據你的文件及設定，產生網站內容在新的目錄下： `site`
 ```sh
 mkdocs build
-echo "site/" >> .gitignore
+echo "site/" >> .gitignore 
 mkdocs build --clean # Removing documentation
 ```
 
-* depolying
+### 發佈知識庫
+* 發佈到 Github Page
 ```sh
 mkdocs gh-deploy
 ```
