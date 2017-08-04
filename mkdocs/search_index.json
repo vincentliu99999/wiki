@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Differt dedecus sanguis\n\n\nEurydicenque amor et bello\n\n\nLorem markdownum et puellas clamore! Aura \nfinem\n, lucus at artus. Pisces\nfaveant magna et Nixosque tinxit ab exteriusque direpta et toro.\n\n\nVix sanguine vultum digiti attonitusque ulla iaculo\n\n\nNon cervix fuerat\n quin potentior Auroram. Cecinit ut dixit conplexus raris;\n\nnos\n infusa terra Nec impetus referam. Advolat numine, moles sed, sorbere,\nsentit \nilluc tuli soror\n natos iunxit, Eueni, aras. Quater et veri quamvis\nille.\n\n\nkernel_registry_queue.compression.byte_day_scroll(san_jsp + system);\nif (adapterGoodputEmulation) {\n    abend_python = 95;\n    debugger.bitrateLosslessBackside.mtu(compilerVdslGateway(\n            iscsiPermalink), keyCompression + 795927);\n}\ncopyright_host_dma = box;\nif (warmPage(rj, dragMips + newbieIgpDvd)) {\n    opticalStick.bloatware(recursion_clone_bloatware);\n}\n\n\n\nAt praesignis differt patris\n\n\nTangit gaudere est dies, nec columbis ardor: nam. Aevi purus dedecus longo,\nflavescit, catenis terrarum miles, crimen.\n\n\nPotius ablata instabat capillos potente valido liquidissimus sacer admoto\nvulnera \ntecta rostro rore\n suo. Exorabilis putares.\n\n\nFortiter et primos fores mihi fuerant erat\n\n\nIlla ex nec dixit tollitur, Monychus Babylonia tanto. Parin volubilibus palude\nvolat cultrosque libera aetas et templa, ad qui Caeneus sciret. Fientque\ndestinat summa longa et quae tunc urbem coercet \ncriminibusque inscius\niunctum\n tempora illo.\n\n\nEsse scrobibus et \nomne et\n ita oppida primus,\nab! Deprendit gravitate conbiberat omnia iter faciebat oris adversaque tuens\nvictus, Inachides Acrota in. Siculae neque: quos mora videtur nec lustrat posses\nincessere. Misit fecerat nudos? Ego sit duris, bella sinit opem, quamquam\nmontani deos, capitis iunget forcipe facit conceptus rabieque.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#differt-dedecus-sanguis", 
+            "text": "", 
+            "title": "Differt dedecus sanguis"
+        }, 
+        {
+            "location": "/about/#eurydicenque-amor-et-bello", 
+            "text": "Lorem markdownum et puellas clamore! Aura  finem , lucus at artus. Pisces\nfaveant magna et Nixosque tinxit ab exteriusque direpta et toro.", 
+            "title": "Eurydicenque amor et bello"
+        }, 
+        {
+            "location": "/about/#vix-sanguine-vultum-digiti-attonitusque-ulla-iaculo", 
+            "text": "Non cervix fuerat  quin potentior Auroram. Cecinit ut dixit conplexus raris; nos  infusa terra Nec impetus referam. Advolat numine, moles sed, sorbere,\nsentit  illuc tuli soror  natos iunxit, Eueni, aras. Quater et veri quamvis\nille.  kernel_registry_queue.compression.byte_day_scroll(san_jsp + system);\nif (adapterGoodputEmulation) {\n    abend_python = 95;\n    debugger.bitrateLosslessBackside.mtu(compilerVdslGateway(\n            iscsiPermalink), keyCompression + 795927);\n}\ncopyright_host_dma = box;\nif (warmPage(rj, dragMips + newbieIgpDvd)) {\n    opticalStick.bloatware(recursion_clone_bloatware);\n}", 
+            "title": "Vix sanguine vultum digiti attonitusque ulla iaculo"
+        }, 
+        {
+            "location": "/about/#at-praesignis-differt-patris", 
+            "text": "Tangit gaudere est dies, nec columbis ardor: nam. Aevi purus dedecus longo,\nflavescit, catenis terrarum miles, crimen.  Potius ablata instabat capillos potente valido liquidissimus sacer admoto\nvulnera  tecta rostro rore  suo. Exorabilis putares.", 
+            "title": "At praesignis differt patris"
+        }, 
+        {
+            "location": "/about/#fortiter-et-primos-fores-mihi-fuerant-erat", 
+            "text": "Illa ex nec dixit tollitur, Monychus Babylonia tanto. Parin volubilibus palude\nvolat cultrosque libera aetas et templa, ad qui Caeneus sciret. Fientque\ndestinat summa longa et quae tunc urbem coercet  criminibusque inscius\niunctum  tempora illo.  Esse scrobibus et  omne et  ita oppida primus,\nab! Deprendit gravitate conbiberat omnia iter faciebat oris adversaque tuens\nvictus, Inachides Acrota in. Siculae neque: quos mora videtur nec lustrat posses\nincessere. Misit fecerat nudos? Ego sit duris, bella sinit opem, quamquam\nmontani deos, capitis iunget forcipe facit conceptus rabieque.", 
+            "title": "Fortiter et primos fores mihi fuerant erat"
+        }
+    ]
+}
