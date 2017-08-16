@@ -49,6 +49,31 @@
             "location": "/about/#fortiter-et-primos-fores-mihi-fuerant-erat", 
             "text": "Illa ex nec dixit tollitur, Monychus Babylonia tanto. Parin volubilibus palude\nvolat cultrosque libera aetas et templa, ad qui Caeneus sciret. Fientque\ndestinat summa longa et quae tunc urbem coercet  criminibusque inscius\niunctum  tempora illo.  Esse scrobibus et  omne et  ita oppida primus,\nab! Deprendit gravitate conbiberat omnia iter faciebat oris adversaque tuens\nvictus, Inachides Acrota in. Siculae neque: quos mora videtur nec lustrat posses\nincessere. Misit fecerat nudos? Ego sit duris, bella sinit opem, quamquam\nmontani deos, capitis iunget forcipe facit conceptus rabieque.", 
             "title": "Fortiter et primos fores mihi fuerant erat"
+        }, 
+        {
+            "location": "/linux_shell/", 
+            "text": "linux shell\n\n\n\u57fa\u790e\u6307\u4ee4\n\n\n\n\n\u76ee\u9304\u64cd\u4f5c\uff1a \nls\n, \ncd\n, \npwd\n, \nmkdir\n, \nrmdir\n\n\n\u6a94\u6848\u64cd\u4f5c\uff1a \ncp\n, \nrm\n, \nmv\n\n\n\u6a94\u6848\u5167\u5bb9\uff1a \ncat [file]\n, \nmore [file]\n, \nless [file]\n\n\n\n\n\u76ee\u9304\n\n\n\n\n/\n: \u8ddf\u76ee\u9304\n\n\n~\n: home\n\n\n.\n: now dir\n\n\n..\n: \u4e0a\u4e00\u5c64\u76ee\u9304\n\n\n-\n: \u4e0a\u4e00\u6b21\u7684\u5de5\u4f5c\u76ee\u9304\n\n\n\n\n\u5feb\u6377\u9375\n\n\n\n\n[Ctrl]+[u] \u6e05\u9664\u55ae\u884c\u6307\u4ee4\n\n\n[Ctrl]+[l]`: \u6e05\u7a7a\u756b\u9762\n\n\n[shift]+[PageUp], [shift]+[PageDown]\uff1a \u4e0a\u4e0b\u79fb\u52d5\u87a2\u5e55\u756b\u9762", 
+            "title": "Linux \u6307\u4ee4"
+        }, 
+        {
+            "location": "/linux_shell/#linux-shell", 
+            "text": "", 
+            "title": "linux shell"
+        }, 
+        {
+            "location": "/linux_shell/#_1", 
+            "text": "\u76ee\u9304\u64cd\u4f5c\uff1a  ls ,  cd ,  pwd ,  mkdir ,  rmdir  \u6a94\u6848\u64cd\u4f5c\uff1a  cp ,  rm ,  mv  \u6a94\u6848\u5167\u5bb9\uff1a  cat [file] ,  more [file] ,  less [file]", 
+            "title": "\u57fa\u790e\u6307\u4ee4"
+        }, 
+        {
+            "location": "/linux_shell/#_2", 
+            "text": "/ : \u8ddf\u76ee\u9304  ~ : home  . : now dir  .. : \u4e0a\u4e00\u5c64\u76ee\u9304  - : \u4e0a\u4e00\u6b21\u7684\u5de5\u4f5c\u76ee\u9304", 
+            "title": "\u76ee\u9304"
+        }, 
+        {
+            "location": "/linux_shell/#_3", 
+            "text": "[Ctrl]+[u] \u6e05\u9664\u55ae\u884c\u6307\u4ee4  [Ctrl]+[l]`: \u6e05\u7a7a\u756b\u9762  [shift]+[PageUp], [shift]+[PageDown]\uff1a \u4e0a\u4e0b\u79fb\u52d5\u87a2\u5e55\u756b\u9762", 
+            "title": "\u5feb\u6377\u9375"
         }
     ]
 }
