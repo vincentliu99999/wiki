@@ -137,7 +137,7 @@ Don't `alert()` to much.
 * [Build an Amazing Markdown Editor Using Visual Studio Code and Pandoc](http://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/)
 * [cupcakeipsum](http://www.cupcakeipsum.com/#/paragraphs/5/length/long/with_love/false/start_with_cupcake/false/seed/e608ca6c845fc246154359ca8267e6ac461b6e6ac1bbd877e7a9d7dac3b6319a)
 * google 關鍵字
-  * markdown cheatsheet
-  * markdown reference guide
-  * free markdown e-book
-  * what apps support markdown
+    * markdown cheatsheet
+    * markdown reference guide
+    * free markdown e-book
+    * what apps support markdown
