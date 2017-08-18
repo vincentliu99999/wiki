@@ -1,115 +1,506 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../img/favicon.ico">
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.1">
+    
+    
+      
         <title>Easy Markdown with VS Code - wiki</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/highlight.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-	
-	<script src="../js/jquery-1.10.2.min.js"></script>
-        <script src="../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../js/highlight.pack.js"></script> 
-    </head>
-
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-bfecc7305d.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="..">wiki</a>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href=".." title="wiki" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Course
+                </span>
+              
+            
+            Easy Markdown with VS Code
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                    <li >
-                        <a href="..">Home</a>
-                    </li>
-                    <li >
-                        <a href="../about/">About</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux 使用手冊 <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="../linux_shell/">Linux 指令</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li class="active">
-    <a href="./">Easy Markdown with VS Code</a>
-</li>
-                        </ul>
-                    </li>
-                </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                    <li >
-                        <a rel="next" href="../linux_shell/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-            </ul>
-        </div>
+      </div>
     </div>
+  </div>
 </div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
 
-        <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#easy-markdown-with-vs-code">Easy Markdown with VS Code</a></li>
-            <li><a href="#vs-code-extension">VS Code extension</a></li>
-            <li><a href="#vs-code-setting">VS Code Setting</a></li>
-            <li><a href="#formatting-markdown">Formatting Markdown</a></li>
-            <li><a href="#making-list">製作清單（Making List）</a></li>
-            <li><a href="#pictures-links">圖片與連結（Pictures &amp; Links）</a></li>
-            <li><a href="#table">表格（Table）</a></li>
-            <li><a href="#sharing-code">程式碼（Sharing Code）</a></li>
-            <li><a href="#emojis">表情符號（emojis）</a></li>
-            <li><a href="#reference">Reference</a></li>
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Linux 使用手冊
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Linux 使用手冊
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux_shell/" title="Linux 指令" class="md-nav__link">
+      Linux 指令
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Course
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Course
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Easy Markdown with VS Code
+      </label>
+    
+    <a href="./" title="Easy Markdown with VS Code" class="md-nav__link md-nav__link--active">
+      Easy Markdown with VS Code
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vs-code-extension" title="VS Code extension" class="md-nav__link">
+    VS Code extension
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs-code-setting" title="VS Code Setting" class="md-nav__link">
+    VS Code Setting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formatting-markdown" title="Formatting Markdown" class="md-nav__link">
+    Formatting Markdown
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading" title="標題（Heading）" class="md-nav__link">
+    標題（Heading）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-break" title="換行（Line Break）" class="md-nav__link">
+    換行（Line Break）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-formatting" title="文字格式（Text Formatting）" class="md-nav__link">
+    文字格式（Text Formatting）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-list" title="製作清單（Making List）" class="md-nav__link">
+    製作清單（Making List）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pictures-links" title="圖片與連結（Pictures &amp; Links）" class="md-nav__link">
+    圖片與連結（Pictures &amp; Links）
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-in-markdown" title="影片（Video in Markdown）" class="md-nav__link">
+    影片（Video in Markdown）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table" title="表格（Table）" class="md-nav__link">
+    表格（Table）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-code" title="程式碼（Sharing Code）" class="md-nav__link">
+    程式碼（Sharing Code）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emojis" title="表情符號（emojis）" class="md-nav__link">
+    表情符號（emojis）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" title="Reference" class="md-nav__link">
+    Reference
+  </a>
+  
+</li>
+      
+      
+      
     </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+  
+</nav>
+    
+  </li>
 
-<h1 id="easy-markdown-with-vs-code">Easy Markdown with VS Code</h1>
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vs-code-extension" title="VS Code extension" class="md-nav__link">
+    VS Code extension
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs-code-setting" title="VS Code Setting" class="md-nav__link">
+    VS Code Setting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formatting-markdown" title="Formatting Markdown" class="md-nav__link">
+    Formatting Markdown
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading" title="標題（Heading）" class="md-nav__link">
+    標題（Heading）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-break" title="換行（Line Break）" class="md-nav__link">
+    換行（Line Break）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-formatting" title="文字格式（Text Formatting）" class="md-nav__link">
+    文字格式（Text Formatting）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-list" title="製作清單（Making List）" class="md-nav__link">
+    製作清單（Making List）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pictures-links" title="圖片與連結（Pictures &amp; Links）" class="md-nav__link">
+    圖片與連結（Pictures &amp; Links）
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-in-markdown" title="影片（Video in Markdown）" class="md-nav__link">
+    影片（Video in Markdown）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table" title="表格（Table）" class="md-nav__link">
+    表格（Table）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-code" title="程式碼（Sharing Code）" class="md-nav__link">
+    程式碼（Sharing Code）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emojis" title="表情符號（emojis）" class="md-nav__link">
+    表情符號（emojis）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" title="Reference" class="md-nav__link">
+    Reference
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="easy-markdown-with-vs-code">Easy Markdown with VS Code</h1>
 <p><a href="https://www.udemy.com/easy-markdown-with-vs-code/learn/v4/overview">udemy - Easy Markdown with VS Code</a></p>
 <h2 id="vs-code-extension">VS Code extension</h2>
 <ul>
@@ -127,13 +518,13 @@
 </ul>
 <h2 id="formatting-markdown">Formatting Markdown</h2>
 <h3 id="heading">標題（Heading）</h3>
-<pre><code class="markdown"># This is level1 heading
+<div class="highlight"><pre><span></span># This is level1 heading
 ## This is level2 heading
 ### This is level3 heading
 #### This is level4 heading
 ##### This is level5 heading
 ###### This is level6 heading
-</code></pre>
+</pre></div>
 
 <h3 id="line-break">換行（Line Break）</h3>
 <ul>
@@ -147,15 +538,15 @@ Tootsie roll cookie toffee halvah jelly gummi bears chocolate bar caramels. Pudd
 <p><img alt="Toggle Text Format" src="../image/Vs_code_toggle_text_format.png" /></p>
 <p><em>我是粗線條的粗體字</em><br />
 <em>我是斜斜的斜體字</em><br />
-~~我是沒人想看的刪除字~~</p>
-<pre><code class="markdown">*我是粗線條的粗體字*
+<del>我是沒人想看的刪除字</del></p>
+<div class="highlight"><pre><span></span>*我是粗線條的粗體字*
 _我是斜斜的斜體字_
 ~~我是沒人想看的刪除字~~
-</code></pre>
+</pre></div>
 
 <h2 id="making-list">製作清單（Making List）</h2>
 <p>在開頭使用空白來做縮排</p>
-<ol>
+<ol class="task-list">
 <li>子彈清單（bullet list）</li>
 <li>數字清單（number list）</li>
 <li>
@@ -174,16 +565,16 @@ _我是斜斜的斜體字_
 <li>
 <p>Toffee brownie biscuit biscuit.</p>
 </li>
-<li>
-<p>[ ] Chocolate cake topping tootsie roll sesame snaps cupcake cotton candy macaroon sweet.</p>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Chocolate cake topping tootsie roll sesame snaps cupcake cotton candy macaroon sweet.</p>
 </li>
-<li>[ ] Candy canes gummies gummies cake.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Candy canes gummies gummies cake.</li>
 </ol>
 <h2 id="pictures-links">圖片與連結（Pictures &amp; Links）</h2>
 <ol>
 <li>單純的連結： <code>&lt;link url&gt;</code></li>
-<li>文字加連結： <code>[link text](link url "tooltip")</code></li>
-<li>圖片＋連結： <code>[![image alt text](image url) "tooltip"][link url]</code></li>
+<li>文字加連結： <code>[link text](link url &quot;tooltip&quot;)</code></li>
+<li>圖片＋連結： <code>[![image alt text](image url) &quot;tooltip&quot;][link url]</code></li>
 </ol>
 <p><a href="https://github.com">https://github.com</a></p>
 <p><a href="https://www.facebook.com/InternetCoders/?fref=ts">Web Coders Facebook Group</a></p>
@@ -236,9 +627,9 @@ _我是斜斜的斜體字_
 <li>inline code</li>
 <li>code block</li>
 </ul>
-<pre><code class="html">&lt;h1&gt;Hello Markdown&lt;h1&gt;
-&lt;p&gt;Roses are red&lt;br&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello Markdown<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Roses are red<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+</pre></div>
 
 <p>Don't <code>alert()</code> to much.</p>
 <h2 id="emojis">表情符號（emojis）</h2>
@@ -246,51 +637,84 @@ _我是斜斜的斜體字_
 <li>語法： <code>:emoji_name:</code></li>
 <li><a href="https://gist.github.com/rxaviers/7360908">Github Emojis</a>: 預設的預覽是不會有表情符號的，一定要用GFM，但是安裝Extension(markdown-emoji)就可以使用了</li>
 </ul>
-<p>:heart_eyes:
-:kissing_closed_eyes::kissing_closed_eyes:</p>
-<p>:kissing_closed_eyes:</p>
+<p><img alt="😍" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f60d.svg" title=":heart_eyes:" />
+<img alt="😚" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f61a.svg" title=":kissing_closed_eyes:" /><img alt="😚" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f61a.svg" title=":kissing_closed_eyes:" /></p>
+<p><img alt="😚" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f61a.svg" title=":kissing_closed_eyes:" /></p>
 <h2 id="reference">Reference</h2>
 <ul>
 <li><a href="http://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/">Build an Amazing Markdown Editor Using Visual Studio Code and Pandoc</a></li>
 <li><a href="http://www.cupcakeipsum.com/#/paragraphs/5/length/long/with_love/false/start_with_cupcake/false/seed/e608ca6c845fc246154359ca8267e6ac461b6e6ac1bbd877e7a9d7dac3b6319a">cupcakeipsum</a></li>
-<li>google 關鍵字</li>
+<li>google 關鍵字<ul>
 <li>markdown cheatsheet</li>
 <li>markdown reference guide</li>
 <li>free markdown e-book</li>
 <li>what apps support markdown</li>
-</ul></div>
+</ul>
+</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>var base_url = '..';</script>
-        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
-        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../linux_shell/" title="Linux 指令" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Linux 指令
+              </span>
             </div>
-            <div class="modal-footer">
-            </div>
-        </div>
+          </a>
+        
+        
+      </nav>
     </div>
-</div>
-
-    </body>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-6940329b9f.js"></script>
+      
+      
+      <script>app.initialize({url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
 </html>
