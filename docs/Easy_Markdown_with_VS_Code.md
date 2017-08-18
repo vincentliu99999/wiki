@@ -96,7 +96,7 @@ Here's [github profile][linked] page
 ### 影片（Video in Markdown）
 
 <!-- YouTube video link -->
-[![Learn VS Code](http://img.youtube.com/vi/E0ao2tT410M/0.jpg)](http://www.youtube.com/watch?v=E0ao2tT410M "Watch Video")
+[![Learn VS Code](https://img.youtube.com/vi/E0ao2tT410M/0.jpg)](http://www.youtube.com/watch?v=E0ao2tT410M "Watch Video")
 
 ## 表格（Table）
 
