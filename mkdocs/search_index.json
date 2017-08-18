@@ -74,6 +74,81 @@
             "location": "/linux_shell/#_3", 
             "text": "[Ctrl]+[u] \u6e05\u9664\u55ae\u884c\u6307\u4ee4  [Ctrl]+[l]`: \u6e05\u7a7a\u756b\u9762  [shift]+[PageUp], [shift]+[PageDown]\uff1a \u4e0a\u4e0b\u79fb\u52d5\u87a2\u5e55\u756b\u9762", 
             "title": "\u5feb\u6377\u9375"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/", 
+            "text": "Easy Markdown with VS Code\n\n\nudemy - Easy Markdown with VS Code\n\n\nVS Code extension\n\n\n\n\nGFM Preview\n\n\nMarkdown Shortcuts\n\n\nMarkdown PasteURL\n\n\nmarkdownlint\n\n\nmarkdown-emoji\n\n\n\n\n\n\nVS Code Setting\n\n\n\n\ngfmpreview.githubUsername\n\n\ngfmpreview.githubPassword\n\n\n\n\nFormatting Markdown\n\n\n\u6a19\u984c\uff08Heading\uff09\n\n\n# This is level1 heading\n## This is level2 heading\n### This is level3 heading\n#### This is level4 heading\n##### This is level5 heading\n###### This is level6 heading\n\n\n\n\n\u63db\u884c\uff08Line Break\uff09\n\n\n\n\n\u5169\u500b\u7a7a\u767d \uff0b {enter}\n\n\n\u5169\u500b {enter}\n\n\n\n\nCupcake ipsum dolor sit amet pudding caramels sugar plum.\n\nTootsie roll cookie toffee halvah jelly gummi bears chocolate bar caramels. Pudding jelly beans powder. Bonbon caramels cake.\n\n\n\u6587\u5b57\u683c\u5f0f\uff08Text Formatting\uff09\n\n\n\u53ea\u8981\u4f60\u6703\u9078\u53d6\u6587\u5b57\u52a0\u4e0a\u6309\u53f3\u9375\uff0cVS Code\u53ef\u4ee5\u8b93\u4f60\u5f88\u8f15\u9b06\u5730\u4f5c\u8f49\u63db\n\n\n\n\n\u6211\u662f\u7c97\u7dda\u689d\u7684\u7c97\u9ad4\u5b57\n\n\n\u6211\u662f\u659c\u659c\u7684\u659c\u9ad4\u5b57\n\n~~\u6211\u662f\u6c92\u4eba\u60f3\u770b\u7684\u522a\u9664\u5b57~~\n\n\n*\u6211\u662f\u7c97\u7dda\u689d\u7684\u7c97\u9ad4\u5b57*\n_\u6211\u662f\u659c\u659c\u7684\u659c\u9ad4\u5b57_\n~~\u6211\u662f\u6c92\u4eba\u60f3\u770b\u7684\u522a\u9664\u5b57~~\n\n\n\n\n\u88fd\u4f5c\u6e05\u55ae\uff08Making List\uff09\n\n\n\u5728\u958b\u982d\u4f7f\u7528\u7a7a\u767d\u4f86\u505a\u7e2e\u6392\n\n\n\n\n\u5b50\u5f48\u6e05\u55ae\uff08bullet list\uff09\n\n\n\u6578\u5b57\u6e05\u55ae\uff08number list\uff09\n\n\n\n\n\u9078\u9805\u6e05\u55ae\uff08checkbox-ish list\uff09\n\n\n\n\n\n\nCupcake ipsum dolor sit amet souffl\u00e9 caramels chupa chups gingerbread. Jelly beans sweet sugar plum.\n\n\n\n\nChocolate bar chocolate bar lemon drops halvah chocolate chupa chups.\n\n\nMuffin jelly-o cheesecake marshmallow gummies halvah.\n\n\nPowder chocolate bar donut. Tootsie roll sweet roll ice cream marshmallow cake chupa chups cupcake sweet.\n\n\nBear claw cake marzipan halvah oat cake cookie marzipan fruitcake.\n\n\nTopping powder jelly sugar plum jujubes donut brownie.\n\n\n\n\n\n\n\n\nToffee brownie biscuit biscuit.\n\n\n\n\n\n\n[ ] Chocolate cake topping tootsie roll sesame snaps cupcake cotton candy macaroon sweet.\n\n\n\n\n[ ] Candy canes gummies gummies cake.\n\n\n\n\n\u5716\u7247\u8207\u9023\u7d50\uff08Pictures \n Links\uff09\n\n\n\n\n\u55ae\u7d14\u7684\u9023\u7d50\uff1a \nlink url\n\n\n\u6587\u5b57\u52a0\u9023\u7d50\uff1a \n[link text](link url \"tooltip\")\n\n\n\u5716\u7247\uff0b\u9023\u7d50\uff1a \n[![image alt text](image url) \"tooltip\"][link url]\n\n\n\n\nhttps://github.com\n\n\nWeb Coders Facebook Group\n\n\nIce Cream Ipsum\n\n\n\n\nHere's \ngithub profile\n page\n\n\n\n\n\u5f71\u7247\uff08Video in Markdown\uff09\n\n\n\n\n\n\n\n\u8868\u683c\uff08Table\uff09\n\n\n\n\n\u53f3\u9375 \b\b\uff0d\uff1e Add table\n\n\n\u53f3\u9375 \b\uff0d\uff1e Add table with header\n\n\n\u5f9e excel \u6216 google sheet \u8907\u88fd\uff0b\u8cbc\u4e0a \uff0d\uff1e \u53f3\u9375 \b\uff0d\uff1e Add table \u6216 Add table with header\n\n\n\n\n\n\n\n\n\n\nColumn A\n\n\nColumn B\n\n\nColumn C\n\n\nColumn D\n\n\n\n\n\n\n\n\n\n\nA1\n\n\nB1\n\n\nC1\n\n\nD1\n\n\n\n\n\n\nA2\n\n\nB2\n\n\nC2\n\n\nD2\n\n\n\n\n\n\nA3\n\n\nB3\n\n\nC3\n\n\nD3\n\n\n\n\n\n\n\n\n\u7a0b\u5f0f\u78bc\uff08Sharing Code\uff09\n\n\n\n\ninline code\n\n\ncode block\n\n\n\n\nh1\nHello Markdown\nh1\n\n\np\nRoses are red\nbr\n\n\n\n\n\nDon't \nalert()\n to much.\n\n\n\u8868\u60c5\u7b26\u865f\uff08emojis\uff09\n\n\n\n\n\u8a9e\u6cd5\uff1a \n:emoji_name:\n\b\n\n\nGithub Emojis\n: \u9810\u8a2d\u7684\u9810\u89bd\u662f\u4e0d\u6703\u6709\u8868\u60c5\u7b26\u865f\u7684\uff0c\u4e00\u5b9a\u8981\u7528GFM\uff0c\u4f46\u662f\u5b89\u88ddExtension(markdown-emoji)\u5c31\u53ef\u4ee5\u4f7f\u7528\u4e86\n\n\n\n\n:heart_eyes:\n:kissing_closed_eyes::kissing_closed_eyes:\n\n\n:kissing_closed_eyes:\n\n\nReference\n\n\n\n\nBuild an Amazing Markdown Editor Using Visual Studio Code and Pandoc\n\n\ncupcakeipsum\n\n\ngoogle \u95dc\u9375\u5b57\n\n\nmarkdown cheatsheet\n\n\nmarkdown reference guide\n\n\nfree \bmarkdown e-book\n\n\nwhat apps support markdown", 
+            "title": "Easy Markdown with VS Code"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#easy-markdown-with-vs-code", 
+            "text": "udemy - Easy Markdown with VS Code", 
+            "title": "Easy Markdown with VS Code"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#vs-code-extension", 
+            "text": "GFM Preview  Markdown Shortcuts  Markdown PasteURL  markdownlint  markdown-emoji", 
+            "title": "VS Code extension"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#vs-code-setting", 
+            "text": "gfmpreview.githubUsername  gfmpreview.githubPassword", 
+            "title": "VS Code Setting"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#formatting-markdown", 
+            "text": "", 
+            "title": "Formatting Markdown"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#heading", 
+            "text": "# This is level1 heading\n## This is level2 heading\n### This is level3 heading\n#### This is level4 heading\n##### This is level5 heading\n###### This is level6 heading", 
+            "title": "\u6a19\u984c\uff08Heading\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#line-break", 
+            "text": "\u5169\u500b\u7a7a\u767d \uff0b {enter}  \u5169\u500b {enter}   Cupcake ipsum dolor sit amet pudding caramels sugar plum. \nTootsie roll cookie toffee halvah jelly gummi bears chocolate bar caramels. Pudding jelly beans powder. Bonbon caramels cake.", 
+            "title": "\u63db\u884c\uff08Line Break\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#text-formatting", 
+            "text": "\u53ea\u8981\u4f60\u6703\u9078\u53d6\u6587\u5b57\u52a0\u4e0a\u6309\u53f3\u9375\uff0cVS Code\u53ef\u4ee5\u8b93\u4f60\u5f88\u8f15\u9b06\u5730\u4f5c\u8f49\u63db   \u6211\u662f\u7c97\u7dda\u689d\u7684\u7c97\u9ad4\u5b57  \u6211\u662f\u659c\u659c\u7684\u659c\u9ad4\u5b57 \n~~\u6211\u662f\u6c92\u4eba\u60f3\u770b\u7684\u522a\u9664\u5b57~~  *\u6211\u662f\u7c97\u7dda\u689d\u7684\u7c97\u9ad4\u5b57*\n_\u6211\u662f\u659c\u659c\u7684\u659c\u9ad4\u5b57_\n~~\u6211\u662f\u6c92\u4eba\u60f3\u770b\u7684\u522a\u9664\u5b57~~", 
+            "title": "\u6587\u5b57\u683c\u5f0f\uff08Text Formatting\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#making-list", 
+            "text": "\u5728\u958b\u982d\u4f7f\u7528\u7a7a\u767d\u4f86\u505a\u7e2e\u6392   \u5b50\u5f48\u6e05\u55ae\uff08bullet list\uff09  \u6578\u5b57\u6e05\u55ae\uff08number list\uff09   \u9078\u9805\u6e05\u55ae\uff08checkbox-ish list\uff09    Cupcake ipsum dolor sit amet souffl\u00e9 caramels chupa chups gingerbread. Jelly beans sweet sugar plum.   Chocolate bar chocolate bar lemon drops halvah chocolate chupa chups.  Muffin jelly-o cheesecake marshmallow gummies halvah.  Powder chocolate bar donut. Tootsie roll sweet roll ice cream marshmallow cake chupa chups cupcake sweet.  Bear claw cake marzipan halvah oat cake cookie marzipan fruitcake.  Topping powder jelly sugar plum jujubes donut brownie.     Toffee brownie biscuit biscuit.    [ ] Chocolate cake topping tootsie roll sesame snaps cupcake cotton candy macaroon sweet.   [ ] Candy canes gummies gummies cake.", 
+            "title": "\u88fd\u4f5c\u6e05\u55ae\uff08Making List\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#pictures-links", 
+            "text": "\u55ae\u7d14\u7684\u9023\u7d50\uff1a  link url  \u6587\u5b57\u52a0\u9023\u7d50\uff1a  [link text](link url \"tooltip\")  \u5716\u7247\uff0b\u9023\u7d50\uff1a  [![image alt text](image url) \"tooltip\"][link url]   https://github.com  Web Coders Facebook Group  Ice Cream Ipsum   Here's  github profile  page", 
+            "title": "\u5716\u7247\u8207\u9023\u7d50\uff08Pictures &amp; Links\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#video-in-markdown", 
+            "text": "", 
+            "title": "\u5f71\u7247\uff08Video in Markdown\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#table", 
+            "text": "\u53f3\u9375 \b\b\uff0d\uff1e Add table  \u53f3\u9375 \b\uff0d\uff1e Add table with header  \u5f9e excel \u6216 google sheet \u8907\u88fd\uff0b\u8cbc\u4e0a \uff0d\uff1e \u53f3\u9375 \b\uff0d\uff1e Add table \u6216 Add table with header      Column A  Column B  Column C  Column D      A1  B1  C1  D1    A2  B2  C2  D2    A3  B3  C3  D3", 
+            "title": "\u8868\u683c\uff08Table\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#sharing-code", 
+            "text": "inline code  code block   h1 Hello Markdown h1  p Roses are red br   Don't  alert()  to much.", 
+            "title": "\u7a0b\u5f0f\u78bc\uff08Sharing Code\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#emojis", 
+            "text": "\u8a9e\u6cd5\uff1a  :emoji_name: \b  Github Emojis : \u9810\u8a2d\u7684\u9810\u89bd\u662f\u4e0d\u6703\u6709\u8868\u60c5\u7b26\u865f\u7684\uff0c\u4e00\u5b9a\u8981\u7528GFM\uff0c\u4f46\u662f\u5b89\u88ddExtension(markdown-emoji)\u5c31\u53ef\u4ee5\u4f7f\u7528\u4e86   :heart_eyes:\n:kissing_closed_eyes::kissing_closed_eyes:  :kissing_closed_eyes:", 
+            "title": "\u8868\u60c5\u7b26\u865f\uff08emojis\uff09"
+        }, 
+        {
+            "location": "/Easy_Markdown_with_VS_Code/#reference", 
+            "text": "Build an Amazing Markdown Editor Using Visual Studio Code and Pandoc  cupcakeipsum  google \u95dc\u9375\u5b57  markdown cheatsheet  markdown reference guide  free \bmarkdown e-book  what apps support markdown", 
+            "title": "Reference"
         }
     ]
 }
