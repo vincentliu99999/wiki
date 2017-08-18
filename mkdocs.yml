@@ -4,3 +4,5 @@ pages:
     - About: about.md
     - Linux 使用手冊:
       - 'Linux 指令': 'linux_shell.md'
+    - Course:
+      - 'Easy Markdown with VS Code': 'Easy_Markdown_with_VS_Code.md'
