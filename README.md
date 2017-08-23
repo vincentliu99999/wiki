@@ -23,8 +23,8 @@
     ```yml
     site_name: wiki
     pages:
-        + Home: index.md
-        + About: about.md
+        - Home: index.md
+        - About: about.md
     ```
 * 新增文件
     ```sh
