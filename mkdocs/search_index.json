@@ -111,6 +111,46 @@
             "title": "\u53c3\u8003\u8cc7\u6599"
         }, 
         {
+            "location": "/vcs/git/", 
+            "text": "Git\n\n\n\u74b0\u5883\u8a2d\u5b9a\n\n\n\u5b89\u88dd\n\n\nGit\n\n\n\u8a2d\u5b9a\n\n\n\u6240\u6709\u8a2d\u5b9a\u6703\u8a18\u9304\u5728 \nhome\n \u76ee\u9304\u4e0b\u7684 \n.gitconfig\n\n\n\u5982\u679c project \u9700\u8981\u81ea\u8a02\u7684\u8a71\uff0c\u8acb\u5728\u8a72\u76ee\u9304\u4e0b\u65b0\u589e \n.gitconfig\n\n\n\u8a2d\u5b9a\u65b9\u5f0f \uff0d \u900f\u904e\u6307\u4ee4\n\n\n# \u67e5\u770b\u8a2d\u5b9a\n\ngit config --list\n\n# username \n email\n\ngit config --global user.name \nusername\n\ngit config --global user.email \nusername@example.com.tw\n\n\n# console \u4e0a\u984f\u8272\n\ngit config --global color.diff auto\ngit config --global color.status auto\ngit config --global color.branch auto\ngit config --global color.log auto\n\n\n\n\n\u8a2d\u5b9a\u65b9\u5f0f \uff0d \u7de8\u8f2f\u6a94\u6848\n\n\n\u7528\u4f60\u7fd2\u6163\u7528\u7de8\u8f2f\u5668\u4f86\u958b\u555f \nhome\n \u76ee\u9304\u4e0b\u7684 \n.gitconfig\n \u7de8\u8f2f\u5427\n\n\n[user]\n        name = username\n        email = username@example.com.tw\n[core]\n        editor = vim\n        ignorecase = false\n[push]\n        default = simple\n[color]\n        diff = auto\n        status = auto\n        branch = auto\n        log = auto\n[alias]\n        lg = log --graph --pretty=format:\n%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset\n\n\n\n\n\n\u5225\u540d\u8a2d\u5b9a\uff08alias\uff09\n\n\ngit \u6307\u4ee4\u6253\u4e45\u4e86\uff0c\u6bcf\u6b21\u90fd\u8981\u6253\u5f88\u591a\u5b57\u89ba\u5f97\u5f88\u7169\u6642\u53ef\u4ee5\u8a2d\u5b9a\u5225\u540d\u5594\n\n\ngit config --global alias.co checkout\ngit config --global alias.br branch\ngit config --global alias.aa add --all\ngit config --global alias.ci commit\ngit config --global alias.st status", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/vcs/git/#git", 
+            "text": "", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/vcs/git/#_1", 
+            "text": "", 
+            "title": "\u74b0\u5883\u8a2d\u5b9a"
+        }, 
+        {
+            "location": "/vcs/git/#_2", 
+            "text": "Git", 
+            "title": "\u5b89\u88dd"
+        }, 
+        {
+            "location": "/vcs/git/#_3", 
+            "text": "\u6240\u6709\u8a2d\u5b9a\u6703\u8a18\u9304\u5728  home  \u76ee\u9304\u4e0b\u7684  .gitconfig  \u5982\u679c project \u9700\u8981\u81ea\u8a02\u7684\u8a71\uff0c\u8acb\u5728\u8a72\u76ee\u9304\u4e0b\u65b0\u589e  .gitconfig", 
+            "title": "\u8a2d\u5b9a"
+        }, 
+        {
+            "location": "/vcs/git/#-", 
+            "text": "# \u67e5\u770b\u8a2d\u5b9a \ngit config --list # username   email \ngit config --global user.name  username \ngit config --global user.email  username@example.com.tw  # console \u4e0a\u984f\u8272 \ngit config --global color.diff auto\ngit config --global color.status auto\ngit config --global color.branch auto\ngit config --global color.log auto", 
+            "title": "\u8a2d\u5b9a\u65b9\u5f0f \uff0d \u900f\u904e\u6307\u4ee4"
+        }, 
+        {
+            "location": "/vcs/git/#-_1", 
+            "text": "\u7528\u4f60\u7fd2\u6163\u7528\u7de8\u8f2f\u5668\u4f86\u958b\u555f  home  \u76ee\u9304\u4e0b\u7684  .gitconfig  \u7de8\u8f2f\u5427  [user]\n        name = username\n        email = username@example.com.tw\n[core]\n        editor = vim\n        ignorecase = false\n[push]\n        default = simple\n[color]\n        diff = auto\n        status = auto\n        branch = auto\n        log = auto\n[alias]\n        lg = log --graph --pretty=format: %Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset", 
+            "title": "\u8a2d\u5b9a\u65b9\u5f0f \uff0d \u7de8\u8f2f\u6a94\u6848"
+        }, 
+        {
+            "location": "/vcs/git/#alias", 
+            "text": "git \u6307\u4ee4\u6253\u4e45\u4e86\uff0c\u6bcf\u6b21\u90fd\u8981\u6253\u5f88\u591a\u5b57\u89ba\u5f97\u5f88\u7169\u6642\u53ef\u4ee5\u8a2d\u5b9a\u5225\u540d\u5594  git config --global alias.co checkout\ngit config --global alias.br branch\ngit config --global alias.aa add --all\ngit config --global alias.ci commit\ngit config --global alias.st status", 
+            "title": "\u5225\u540d\u8a2d\u5b9a\uff08alias\uff09"
+        }, 
+        {
             "location": "/linux_shell/", 
             "text": "linux shell\n\n\n\u57fa\u790e\u6307\u4ee4\n\n\n\n\n\u76ee\u9304\u64cd\u4f5c\uff1a \nls\n, \ncd\n, \npwd\n, \nmkdir\n, \nrmdir\n\n\n\u6a94\u6848\u64cd\u4f5c\uff1a \ncp\n, \nrm\n, \nmv\n\n\n\u6a94\u6848\u5167\u5bb9\uff1a \ncat [file]\n, \nmore [file]\n, \nless [file]\n\n\n\n\n\u76ee\u9304\n\n\n\n\n/\n: \u8ddf\u76ee\u9304\n\n\n~\n: home\n\n\n.\n: now dir\n\n\n..\n: \u4e0a\u4e00\u5c64\u76ee\u9304\n\n\n-\n: \u4e0a\u4e00\u6b21\u7684\u5de5\u4f5c\u76ee\u9304\n\n\n\n\n\u5feb\u6377\u9375\n\n\n\n\n[Ctrl]+[u] \u6e05\u9664\u55ae\u884c\u6307\u4ee4\n\n\n[Ctrl]+[l]`: \u6e05\u7a7a\u756b\u9762\n\n\n[shift]+[PageUp], [shift]+[PageDown]\uff1a \u4e0a\u4e0b\u79fb\u52d5\u87a2\u5e55\u756b\u9762", 
             "title": "Linux \u6307\u4ee4"
