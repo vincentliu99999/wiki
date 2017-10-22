@@ -16,7 +16,7 @@
     
     
       
-        <title>Laravel - wiki</title>
+        <title>Homestead - wiki</title>
       
     
     
@@ -77,11 +77,11 @@
                 </span>
               
                 <span class="md-header-nav__parent">
-                  Course
+                  Laravel
                 </span>
               
             
-            Laravel
+            Homestead
           
         </span>
       </div>
@@ -197,10 +197,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
     
     <label class="md-nav__link" for="nav-3-2">
       Laravel
@@ -216,11 +218,116 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../laravel/Homestead/" title="Homestead" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Homestead
+      </label>
+    
+    <a href="./" title="Homestead" class="md-nav__link md-nav__link--active">
       Homestead
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="安裝" class="md-nav__link">
+    安裝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homestead_1" title="設定 Homestead" class="md-nav__link">
+    設定 Homestead
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#provider" title="Provider" class="md-nav__link">
+    Provider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="共享資料夾" class="md-nav__link">
+    共享資料夾
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx-sites" title="Nginx Sites" class="md-nav__link">
+    Nginx Sites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hosts" title="修改 hosts 檔" class="md-nav__link">
+    修改 hosts 檔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vagrant-box" title="啟動 Vagrant Box" class="md-nav__link">
+    啟動 Vagrant Box
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="常用功能" class="md-nav__link">
+    常用功能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="範例專案" class="md-nav__link">
+    範例專案
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="參考資料" class="md-nav__link">
+    參考資料
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -233,12 +340,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
       Course
@@ -256,7 +361,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Composer/" title="Composer" class="md-nav__link">
+    <a href="../../course/Composer/" title="Composer" class="md-nav__link">
       Composer
     </a>
   </li>
@@ -266,115 +371,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Laravel
-      </label>
-    
-    <a href="./" title="Laravel" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../course/Laravel/" title="Laravel" class="md-nav__link">
       Laravel
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" title="開發環境" class="md-nav__link">
-    開發環境
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#homestead-local" title="Homestead - local 的開發環境" class="md-nav__link">
-    Homestead - local 的開發環境
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#composer" title="Composer" class="md-nav__link">
-    Composer
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artisan" title="artisan" class="md-nav__link">
-    artisan
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#db-migration" title="DB migration" class="md-nav__link">
-    DB migration
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seeding-" title="Seeding - 新增測試資料" class="md-nav__link">
-    Seeding - 新增測試資料
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#route" title="Route" class="md-nav__link">
-    Route
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#blade" title="Blade" class="md-nav__link">
-    Blade
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reference" title="reference" class="md-nav__link">
-    reference
-  </a>
-  
-</li>
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -384,7 +385,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../PHPUnit/" title="PHPUnit" class="md-nav__link">
+    <a href="../../course/PHPUnit/" title="PHPUnit" class="md-nav__link">
       PHPUnit
     </a>
   </li>
@@ -529,16 +530,51 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" title="開發環境" class="md-nav__link">
-    開發環境
+  <a href="#_1" title="安裝" class="md-nav__link">
+    安裝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homestead_1" title="設定 Homestead" class="md-nav__link">
+    設定 Homestead
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#homestead-local" title="Homestead - local 的開發環境" class="md-nav__link">
-    Homestead - local 的開發環境
+  <a href="#provider" title="Provider" class="md-nav__link">
+    Provider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="共享資料夾" class="md-nav__link">
+    共享資料夾
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx-sites" title="Nginx Sites" class="md-nav__link">
+    Nginx Sites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hosts" title="修改 hosts 檔" class="md-nav__link">
+    修改 hosts 檔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vagrant-box" title="啟動 Vagrant Box" class="md-nav__link">
+    啟動 Vagrant Box
   </a>
   
 </li>
@@ -549,56 +585,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#composer" title="Composer" class="md-nav__link">
-    Composer
+  <a href="#_3" title="常用功能" class="md-nav__link">
+    常用功能
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#artisan" title="artisan" class="md-nav__link">
-    artisan
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#db-migration" title="DB migration" class="md-nav__link">
-    DB migration
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seeding-" title="Seeding - 新增測試資料" class="md-nav__link">
-    Seeding - 新增測試資料
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#route" title="Route" class="md-nav__link">
-    Route
+  <a href="#_4" title="範例專案" class="md-nav__link">
+    範例專案
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#blade" title="Blade" class="md-nav__link">
-    Blade
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reference" title="reference" class="md-nav__link">
-    reference
+  <a href="#_5" title="參考資料" class="md-nav__link">
+    參考資料
   </a>
   
 </li>
@@ -618,84 +620,101 @@
               
                 
                 
-                <h1 id="laravel-iilaravel">【Laravel道場系列 II】Laravel框架簡介及實務展示</h1>
-<p>follow psr, plenty library</p>
-<h2 id="_1">開發環境</h2>
-<p>Laravel 5.5
-HTTP server suppory rewrite
-contain plenty library</p>
-<p>Mac default case-unsensitive
-solution: Homestead</p>
-<h3 id="homestead-local">Homestead - local 的開發環境</h3>
-<p>folder: 掛載資料夾
-site: setting document root</p>
-<div class="highlight"><pre><span></span>vagrant up <span class="c1"># port forwarding, mount local folder</span>
-vagrant up --provision <span class="c1"># 有加新的 site 時需要</span>
-vagrant ssh <span class="c1"># 連接虛擬機, require ssh key</span>
-</pre></div>
-
-<p>注意事項</p>
+                <h1 id="homestead">Homestead</h1>
 <ul>
-<li>安裝完要重啟</li>
-<li>Mac 的 timemachine 要排除 Homestead</li>
-<li>Homestead 頗耗電</li>
+<li>快速建立一致化的本地開發環境</li>
+<li>彈性運用虛擬機器</li>
 </ul>
-<h2 id="composer">Composer</h2>
-<div class="highlight"><pre><span></span><span class="c1"># 建立專案</span>
-composer create-project laravel/laravel blog --prefer-dist <span class="c1"># 頗慢</span>
-laravel new blog <span class="c1"># 利用 laravel/installer, composer.lock 已產生，速度比較快</span>
-</pre></div>
-
-<p>/public/: 對外公開資料夾
-/public/index.php: 程式進入點
-/app/: 大部分的PHP，PSR-4 對應 namespace</p>
-<h2 id="artisan">artisan</h2>
-<p>在 project folder 中使用</p>
-<div class="highlight"><pre><span></span>artisan env <span class="c1"># 目前環境</span>
-</pre></div>
-
-<h3 id="db-migration">DB migration</h3>
-<ol>
-<li>建立新增&amp;還原計畫</li>
-<li>GUI確認結果</li>
-</ol>
-<div class="highlight"><pre><span></span>artisan make:migration create_<span class="o">{</span>name<span class="o">}</span>_table <span class="c1"># 新增 migration 檔案</span>
-php artisan make:migration create_employees_table --create<span class="o">=</span>employees <span class="c1">## 範例: 新增 table</span>
-php artisan make:migration add_test_column_in_employees_table --table<span class="o">=</span>employees <span class="c1">## 範例: 加欄位</span>
-artisan mirgate <span class="c1"># 開始 migrate</span>
-artisan migrate:rollback <span class="c1"># 上一個批次的動作還原</span>
-</pre></div>
-
-<div class="highlight"><pre><span></span><span class="x">$table-&gt;timestamp(&#39;publish_at&#39;);</span>
-<span class="x">$table-&gt;softDeletes(); // 自動新增欄位: deleted_at</span>
-<span class="x">$table-&gt;timestamps(); // 自動新增欄位: created_at, updated_at</span>
-</pre></div>
-
-<p>env helper function 會先去 .evn 找，找不到才會用預設值</p>
-<h3 id="seeding-">Seeding - 新增測試資料</h3>
-<p>DatabaseSeeder
-資料真實性</p>
-<div class="highlight"><pre><span></span>artisan make:seeder <span class="o">{</span>seeder_name<span class="o">}</span>
-artisan make:model <span class="o">{</span>model_name<span class="o">}</span>
-artisan db:seed <span class="c1"># 倒資料，建議可以先清除資料</span>
-</pre></div>
-
-<h2 id="route">Route</h2>
-<p>開始寫程式&amp;debug的地方
-通常會由 Controller 接手
-用 <code>$data</code> 回傳給 view</p>
-<div class="highlight"><pre><span></span>artisan make:controller <span class="o">{</span>model<span class="o">}</span>Controller
-artisan make:controller <span class="o">{</span>model<span class="o">}</span>Controller --resource <span class="c1">## 建立預設方法</span>
-</pre></div>
-
-<h2 id="blade">Blade</h2>
-<p>Model 取名為 單數</p>
-<p>Mass assignment: fillable(建議使用), guarded</p>
-<h2 id="reference">reference</h2>
+<h2 id="_1">安裝</h2>
 <ul>
-<li><a href="https://laravel.com/docs/5.5/homestead">Laravel Homestead - Laravel - The PHP Framework For Web Artisans</a></li>
-<li><a href="https://www.vagrantup.com/downloads.html">Download - Vagrant by HashiCorp</a></li>
-<li><a href="https://packalyst.com/">Packalyst :: Packages for Laravel</a></li>
+<li>
+<p>下載＆安裝 <a href="https://www.virtualbox.org/wiki/Downloads">Oracle VM VirtualBox</a></p>
+</li>
+<li>
+<p>下載＆安裝 <a href="https://www.vagrantup.com/downloads.html">Download - Vagrant by HashiCorp</a></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="c1"># 安裝成功會顯示版本</span>
+vagrant version
+</pre></div>
+
+<ul>
+<li>下載 Homestead vagrant box，大約 10 分鐘，可以中場休息一下</li>
+</ul>
+<div class="highlight"><pre><span></span># 選擇 virtual box
+vagrant box add laravel/homestead
+</pre></div>
+
+<div class="highlight"><pre><span></span><span class="c1"># 確認 Homestead vagrant box 下載完成</span>
+<span class="nb">cd</span> ~/.vagrant.d/boxes
+<span class="c1"># 成功的話會有出現目錄 laravel-VAGRANTSLASH-homestead</span>
+ll
+
+<span class="nb">cd</span> laravel-VAGRANTSLASH-homestead／4.0.0/virtualbox
+<span class="c1"># box-disk1.vmdk</span>
+ll
+</pre></div>
+
+<ul>
+<li>安裝 Homestead</li>
+</ul>
+<p>先 clone 到本機</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span> ~
+git clone https://github.com/laravel/homestead.git Homestead
+</pre></div>
+
+<p>找個穩定版本安裝吧 <a href="https://github.com/laravel/homestead/releases">laravel/homestead</a></p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span> Homestead
+
+// Clone the desired release...
+git checkout v6.5.0
+</pre></div>
+
+<ul>
+<li>建立設定檔 <code>Homestead.yaml</code></li>
+</ul>
+<div class="highlight"><pre><span></span>bash init.sh
+</pre></div>
+
+<h2 id="homestead_1">設定 Homestead</h2>
+<h3 id="provider">Provider</h3>
+<p><code>provider</code>: <code>virtual box</code></p>
+<h3 id="_2">共享資料夾</h3>
+<p><code>folders</code>：有異動的檔案會同步到本機與 Homestead 環境</p>
+<div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">folders</span><span class="p p-Indicator">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">map</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">~/Code</span>
+      <span class="l l-Scalar l-Scalar-Plain">to</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">/home/vagrant/Code</span>
+</pre></div>
+
+<h3 id="nginx-sites">Nginx Sites</h3>
+<p><code>sites</code>: 對應 domain 到 Homestead 中的資料夾</p>
+<p>有變更時，執行指令來更新 Nginx 設定</p>
+<h3 id="hosts">修改 hosts 檔</h3>
+<p>將 Homestead設定的 IP 加到 host 檔案中，request 才會重新導向 Homestead</p>
+<ul>
+<li>Mac/Linux: <code>/etc/hosts</code></li>
+<li>Windows: <code>C:\Windows\System32\drivers\etc\hosts</code></li>
+</ul>
+<div class="highlight"><pre><span></span>192.168.10.10  homestead.test
+</pre></div>
+
+<h3 id="vagrant-box">啟動 Vagrant Box</h3>
+<p><code>Homestead.yaml</code> 設定好後就可以執行 <code>vagrant up</code> 來開虛擬機囉</p>
+<h2 id="_3">常用功能</h2>
+<ul>
+<li>透過 SSH 連接(進入 Homestead 目錄後執行)：<code>vagrant ssh</code></li>
+<li><code>sites</code> 異動：<code>vagrant reload --provision</code></li>
+</ul>
+<h2 id="_4">範例專案</h2>
+<ul>
+<li><a href="https://laravel.tw/docs/5.2/quickstart">基本任務清單 - Laravel - 為網頁藝術家創造的 PHP 框架</a></li>
+<li><a href="https://laravel.tw/docs/5.2/quickstart-intermediate">中級任務清單 - Laravel - 為網頁藝術家創造的 PHP 框架</a></li>
+</ul>
+<h2 id="_5">參考資料</h2>
+<ul>
+<li><a href="https://laravel.tw/docs/5.3/homestead">Laravel Homestead - Laravel - 為網頁藝術家創造的 PHP 框架</a></li>
+<li><a href="http://oomusou.io/laravel/homestead/homestead-osx/">如何在OS X安裝Homestead?</a></li>
+<li><a href="https://kejyuntw.gitbooks.io/laravel-5-learning-notes/environment/Environment-Homestead-README.html">Homestead · Laravel 5 學習筆記</a></li>
 </ul>
                 
                   
@@ -715,7 +734,7 @@ artisan make:controller <span class="o">{</span>model<span class="o">}</span>Con
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Composer/" title="Composer" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../composer/" title="Composer" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -730,13 +749,13 @@ artisan make:controller <span class="o">{</span>model<span class="o">}</span>Con
           </a>
         
         
-          <a href="../PHPUnit/" title="PHPUnit" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../course/Composer/" title="Composer" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                PHPUnit
+                Composer
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
