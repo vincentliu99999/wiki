@@ -13,6 +13,7 @@ pages:
     - VCS:
       - Git:
         - 'Git 設定': 'vcs/git/config.md'
+        - 'Git 基礎': 'vcs/git/basic.md'
     - Linux 使用手冊:
       - 'Linux 指令': 'linux_shell.md'
     - Course:
