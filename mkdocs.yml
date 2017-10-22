@@ -4,6 +4,10 @@ pages:
     - About: about.md
     - PHP:
       - 'Composer': 'php/composer.md'
+      - Course:
+        - 'Composer': 'php/course/Composer.md'
+        - 'Laravel': 'php/course/Laravel.md'
+        - 'PHPUnit': 'php/course/PHPUnit.md'
     - VCS:
       - 'Git': 'vcs/git.md'
     - Linux 使用手冊:
