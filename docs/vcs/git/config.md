@@ -1,10 +1,10 @@
-# Git
+# Git 設定
 
-## 環境設定
-
-### 安裝
+## 安裝
 
 [Git](https://git-scm.com/)
+
+## 環境設定
 
 ### 設定
 
@@ -17,9 +17,11 @@
 ```sh
 # 查看設定
 git config --list
+
 # username & email
 git config --global user.name "username"
 git config --global user.email "username@example.com.tw"
+
 # console 上顏色
 git config --global color.diff auto
 git config --global color.status auto

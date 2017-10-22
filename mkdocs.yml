@@ -11,7 +11,8 @@ pages:
         - 'Laravel': 'php/course/Laravel.md'
         - 'PHPUnit': 'php/course/PHPUnit.md'
     - VCS:
-      - 'Git': 'vcs/git.md'
+      - Git:
+        - 'Git 設定': 'vcs/git/config.md'
     - Linux 使用手冊:
       - 'Linux 指令': 'linux_shell.md'
     - Course:
