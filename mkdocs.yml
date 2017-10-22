@@ -4,6 +4,8 @@ pages:
     - About: about.md
     - PHP:
       - 'Composer': 'php/composer.md'
+      - Laravel:
+        - 'Homestead': 'php/laravel/Homestead.md'
       - Course:
         - 'Composer': 'php/course/Composer.md'
         - 'Laravel': 'php/course/Laravel.md'
