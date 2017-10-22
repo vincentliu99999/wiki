@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,7 +21,13 @@
         
     <url>
      <loc>/php/composer/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -31,7 +37,7 @@
         
     <url>
      <loc>/vcs/git/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -41,7 +47,7 @@
         
     <url>
      <loc>/linux_shell/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -51,7 +57,7 @@
         
     <url>
      <loc>/Easy_Markdown_with_VS_Code/</loc>
-     <lastmod>2017-10-18</lastmod>
+     <lastmod>2017-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
