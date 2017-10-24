@@ -5,6 +5,7 @@ pages:
     - PHP:
       - 'Composer': 'php/composer.md'
       - Laravel:
+        - 'Installation': 'php/laravel/Installation.md'
         - 'Homestead': 'php/laravel/Homestead.md'
       - Course:
         - 'Composer': 'php/course/Composer.md'
