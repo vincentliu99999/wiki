@@ -25,14 +25,28 @@ Route::any('foo', function () {
 
 ## CSRF 防護
 
-HTTP 動作為 POST, PUT, 或 DELETE 時，HTML from 需加上 CSRF token
+HTTP 動作為 POST, PUT 或 DELETE 時，HTML from 需加上 CSRF token
 
 [CSRF Protection - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/master/csrf)
 
+## 表單方法欺騙
+
+HTML from 不支援 PUT, PATCH 或 DELETE
+
+手動在 from 添加
+
+```html
+<input type="hidden" name="_method" value="PUT">
+```
+
+或是使用 helper function `method_field` 來產生
+
 ## 暫存
 
-查看所有路由
-
 ```sh
+# 查看所有路由
 php artisan route:list
+
+# 建立 Controller
+php artisan make:controller TestController
 ```
