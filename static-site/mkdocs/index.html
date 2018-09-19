@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Installation - wiki</title>
-        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>[MkDocs](http://www.mkdocs.org/) - wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../../..">wiki</a>
+                    <a class="navbar-brand" href="../..">wiki</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,30 +47,30 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="../../..">Home</a>
+                                <a href="../..">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PHP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../composer/">Composer</a>
+    <a href="../../php/composer/">Composer</a>
 </li>
                                     
   <li class="dropdown-submenu">
     <a href="#">Laravel</a>
     <ul class="dropdown-menu">
             
-<li class="active">
-    <a href="./">Installation</a>
+<li >
+    <a href="../../php/laravel/Installation/">Installation</a>
 </li>
             
 <li >
-    <a href="../Homestead/">Homestead</a>
+    <a href="../../php/laravel/Homestead/">Homestead</a>
 </li>
             
 <li >
-    <a href="../Routing/">Routing</a>
+    <a href="../../php/laravel/Routing/">Routing</a>
 </li>
     </ul>
   </li>
@@ -80,15 +80,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../course/Composer/">Composer</a>
+    <a href="../../php/course/Composer/">Composer</a>
 </li>
             
 <li >
-    <a href="../../course/Laravel/">Laravel</a>
+    <a href="../../php/course/Laravel/">Laravel</a>
 </li>
             
 <li >
-    <a href="../../course/PHPUnit/">PHPUnit</a>
+    <a href="../../php/course/PHPUnit/">PHPUnit</a>
 </li>
     </ul>
   </li>
@@ -103,11 +103,11 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../../vcs/git/config/">Git 設定</a>
+    <a href="../../vcs/git/config/">Git 設定</a>
 </li>
             
 <li >
-    <a href="../../../vcs/git/basic/">Git 基礎</a>
+    <a href="../../vcs/git/basic/">Git 基礎</a>
 </li>
     </ul>
   </li>
@@ -118,7 +118,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../../linux_shell/">Linux 指令</a>
+    <a href="../../linux_shell/">Linux 指令</a>
 </li>
                                 </ul>
                             </li>
@@ -127,12 +127,12 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
+    <a href="../../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
 </li>
                                 </ul>
                             </li>
                             <li >
-                                <a href="../../../static-site">Static Site</a>
+                                <a href="..">Static Site</a>
                             </li>
                         </ul>
 
@@ -142,16 +142,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../../composer/">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../Homestead/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -160,36 +150,72 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#_1">安裝</a></li>
-            <li><a href="#laravel">透過 Laravel 安裝</a></li>
-            <li><a href="#composer-create-project">透過 Composer Create-Project</a></li>
+        <li class="main active"><a href="#mkdocs">MkDocs</a></li>
+            <li><a href="#_1">安裝</a></li>
+            <li><a href="#_2">建立知識庫</a></li>
+            <li><a href="#_3">發佈知識庫</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="_1">安裝</h1>
-<p>系統要求：<a href="https://laravel.com/docs/master/installation#server-requirements">Installation - Laravel - The PHP Framework For Web Artisans</a></p>
-<p>由於 Laravel 利用 Composer 來管理套件，請先安裝 <a href="http://getcomposer.org/">Composer</a></p>
-<h2 id="laravel">透過 Laravel 安裝</h2>
-<pre><code class="sh">composer global require &quot;laravel/installer&quot;
+<h1 id="mkdocs"><a href="http://www.mkdocs.org/">MkDocs</a></h1>
+<h2 id="_1">安裝</h2>
+<ul>
+<li>使用 <a href="https://brew.sh">Homebrew</a></li>
+</ul>
+<pre><code class="sh">brew install mkdocs
 </code></pre>
 
-<p>安裝好後請先將 <code>$HOME/.composer/vendor/bin</code> 加入環境變數 $PATH 中</p>
-<p>個人使用 iTerm2 + zsh</p>
-<pre><code class="sh">echo 'export PATH=&quot;$PATH:$HOME/.composer/vendor/bin&quot;' &gt;&gt; ~/.zshrc
+<h2 id="_2">建立知識庫</h2>
+<ul>
+<li>預設會產生<code>mkdocs.yml</code>, <code>docs/index.md</code></li>
+</ul>
+<pre><code class="sh">mkdocs new [dir-name]
 </code></pre>
 
-<p>之後可以直接透過 <code>laravel</code> 指令來建立專案</p>
-<pre><code class="sh"># 指定目錄名稱
-laravel new &lt;project-name&gt;
-
-# 目前目錄
-laravel new
+<ul>
+<li><code>mkdocs.yml</code>: 知識庫設定檔</li>
+<li><code>docs/</code>: markdown 文件目錄</li>
+<li>修改 <code>mkdocs.yml</code></li>
+</ul>
+<pre><code class="yml">site_name: wiki
+pages:
+    - Home: index.md
+    - About: about.md
 </code></pre>
 
-<h2 id="composer-create-project">透過 Composer Create-Project</h2>
-<pre><code class="sh">composer create-project --prefer-dist laravel/laravel &lt;project-name&gt;
-</code></pre></div>
+<ul>
+<li>新增文件</li>
+</ul>
+<pre><code class="sh">curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' &gt; docs/about.md
+</code></pre>
+
+<ul>
+<li>本地端即時預覽，改文件也會即時更新，url: <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a></li>
+</ul>
+<pre><code class="sh">mkdocs serve
+</code></pre>
+
+<ul>
+<li>根據你的文件及設定，產生網站內容在新的目錄下： <code>site</code></li>
+</ul>
+<pre><code class="sh">mkdocs build
+echo &quot;site/&quot; &gt;&gt; .gitignore 
+mkdocs build --clean # Removing documentation
+</code></pre>
+
+<h2 id="_3">發佈知識庫</h2>
+<ul>
+<li>發佈到 Github Page</li>
+</ul>
+<pre><code class="sh">mkdocs gh-deploy
+</code></pre>
+
+<h3 id="_4">主題</h3>
+<ul>
+<li><a href="https://github.com/squidfunk/mkdocs-material">Material theme</a> 因為有文件需要用到emoji，所以改用</li>
+</ul>
+<p>安裝後要啟用<a href="http://squidfunk.github.io/mkdocs-material/extensions/pymdown/">PyMdown Extensions</a></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -197,11 +223,11 @@ laravel new
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "../../..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../../../js/base.js" defer></script>
-        <script src="../../../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

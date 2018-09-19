@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Installation - wiki</title>
-        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Hexo - wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../../..">wiki</a>
+                    <a class="navbar-brand" href="../..">wiki</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,30 +47,30 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="../../..">Home</a>
+                                <a href="../..">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PHP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../composer/">Composer</a>
+    <a href="../../php/composer/">Composer</a>
 </li>
                                     
   <li class="dropdown-submenu">
     <a href="#">Laravel</a>
     <ul class="dropdown-menu">
             
-<li class="active">
-    <a href="./">Installation</a>
+<li >
+    <a href="../../php/laravel/Installation/">Installation</a>
 </li>
             
 <li >
-    <a href="../Homestead/">Homestead</a>
+    <a href="../../php/laravel/Homestead/">Homestead</a>
 </li>
             
 <li >
-    <a href="../Routing/">Routing</a>
+    <a href="../../php/laravel/Routing/">Routing</a>
 </li>
     </ul>
   </li>
@@ -80,15 +80,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../course/Composer/">Composer</a>
+    <a href="../../php/course/Composer/">Composer</a>
 </li>
             
 <li >
-    <a href="../../course/Laravel/">Laravel</a>
+    <a href="../../php/course/Laravel/">Laravel</a>
 </li>
             
 <li >
-    <a href="../../course/PHPUnit/">PHPUnit</a>
+    <a href="../../php/course/PHPUnit/">PHPUnit</a>
 </li>
     </ul>
   </li>
@@ -103,11 +103,11 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../../vcs/git/config/">Git 設定</a>
+    <a href="../../vcs/git/config/">Git 設定</a>
 </li>
             
 <li >
-    <a href="../../../vcs/git/basic/">Git 基礎</a>
+    <a href="../../vcs/git/basic/">Git 基礎</a>
 </li>
     </ul>
   </li>
@@ -118,7 +118,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../../linux_shell/">Linux 指令</a>
+    <a href="../../linux_shell/">Linux 指令</a>
 </li>
                                 </ul>
                             </li>
@@ -127,12 +127,12 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
+    <a href="../../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
 </li>
                                 </ul>
                             </li>
                             <li >
-                                <a href="../../../static-site">Static Site</a>
+                                <a href="..">Static Site</a>
                             </li>
                         </ul>
 
@@ -142,16 +142,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../../composer/">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../Homestead/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -160,35 +150,136 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#_1">安裝</a></li>
-            <li><a href="#laravel">透過 Laravel 安裝</a></li>
-            <li><a href="#composer-create-project">透過 Composer Create-Project</a></li>
+        <li class="main active"><a href="#hexo">Hexo</a></li>
+            <li><a href="#_1">使用</a></li>
+            <li><a href="#_4">設定</a></li>
+            <li><a href="#_5">其他</a></li>
+            <li><a href="#theme">theme</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="_1">安裝</h1>
-<p>系統要求：<a href="https://laravel.com/docs/master/installation#server-requirements">Installation - Laravel - The PHP Framework For Web Artisans</a></p>
-<p>由於 Laravel 利用 Composer 來管理套件，請先安裝 <a href="http://getcomposer.org/">Composer</a></p>
-<h2 id="laravel">透過 Laravel 安裝</h2>
-<pre><code class="sh">composer global require &quot;laravel/installer&quot;
+<h1 id="hexo">Hexo</h1>
+<pre><code class="shell"># 安裝 Node.js
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+
+# 安裝 Hexo
+npm install hexo-cli -g
 </code></pre>
 
-<p>安裝好後請先將 <code>$HOME/.composer/vendor/bin</code> 加入環境變數 $PATH 中</p>
-<p>個人使用 iTerm2 + zsh</p>
-<pre><code class="sh">echo 'export PATH=&quot;$PATH:$HOME/.composer/vendor/bin&quot;' &gt;&gt; ~/.zshrc
+<h2 id="_1">使用</h2>
+<pre><code class="shell"># 初始化
+hexo init &lt;folder&gt;
+cd &lt;folder&gt;
+npm install
+
+# 產生靜態檔案
+hexo generate
+
+# 啟動伺服器 預設是 http://localhost:4000/
+hexo server
+
+# publish
+hexo clean
+hexo generate # hexo g
+hexo depoly # hexo d
 </code></pre>
 
-<p>之後可以直接透過 <code>laravel</code> 指令來建立專案</p>
-<pre><code class="sh"># 指定目錄名稱
-laravel new &lt;project-name&gt;
-
-# 目前目錄
-laravel new
+<h3 id="_2">建立文章</h3>
+<p>layout: <code>post</code>, <code>page</code>, <code>draft</code></p>
+<pre><code class="shell">hexo new [layout] &lt;title&gt;
 </code></pre>
 
-<h2 id="composer-create-project">透過 Composer Create-Project</h2>
-<pre><code class="sh">composer create-project --prefer-dist laravel/laravel &lt;project-name&gt;
+<h3 id="_3">發布</h3>
+<pre><code class="shell"># install requirement depoly to git
+npm install hexo-deployer-git --save
+
+# publish
+hexo clean
+hexo generate # hexo g
+hexo depoly # hexo d
+</code></pre>
+
+<h2 id="_4">設定</h2>
+<p><code>_config.yml</code></p>
+<h3 id="site">Site</h3>
+<pre><code class="yml"># Site
+title: 攻城獅的奇幻冒險旅程
+subtitle:
+description:
+keywords:
+author: Vincent Liu
+language:
+timezone:
+</code></pre>
+
+<h3 id="url">URL</h3>
+<pre><code class="yml"># URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://vincentliu99999.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+</code></pre>
+
+<h3 id="deployment">Deployment</h3>
+<pre><code class="yml"># Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:vincentliu99999/vincentliu99999.github.io.git
+  branch: master
+  message: &quot;Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}&quot;
+</code></pre>
+
+<h3 id="feed">Feed</h3>
+<pre><code class="shell">npm install hexo-generator-feed --save
+</code></pre>
+
+<pre><code class="yml"># Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+</code></pre>
+
+<h2 id="_5">其他</h2>
+<h3 id="toc">TOC</h3>
+<pre><code class="yml">&lt;%- toc(post.content, {list_number: false}) %&gt;
+</code></pre>
+
+<p>新增 <code>themes/landscape/layout/_partial/toc.ejs</code></p>
+<pre><code class="javascript">&lt;% if (post.toc != false) { %&gt;
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;%- toc(post.content, {list_number: false}) %&gt;
+&lt;/div&gt;
+&lt;% } %&gt;
+</code></pre>
+
+<p>修改 <code>themes/landscape/layout/_partial/toc.ejs</code></p>
+<pre><code class="ejs">&lt;%- partial('toc') %&gt;
+&lt;%- post.content %&gt;
+</code></pre>
+
+<p>修改 <code>themes/landscape/source/css/_partial/article.styl</code></p>
+<pre><code class="css">#toc
+  float right
+  background-color #eee
+  font-size 0.8em
+  color color-link
+  margin 5px
+  .toc
+    list-style none
+</code></pre>
+
+<h2 id="theme">theme</h2>
+<p><a href="https://www.jianshu.com/p/39cff9966304">hexo黑色主题</a></p>
+<pre><code class="shell">git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
 </code></pre></div>
         </div>
 
@@ -197,11 +288,11 @@ laravel new
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "../../..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../../../js/base.js" defer></script>
-        <script src="../../../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
