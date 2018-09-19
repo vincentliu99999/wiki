@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Linux 指令 - wiki</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Routing - wiki</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">wiki</a>
+                    <a class="navbar-brand" href="../../..">wiki</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,17 +47,17 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">Home</a>
+                                <a href="../../..">Home</a>
                             </li>
                             <li >
-                                <a href="../about/">About</a>
+                                <a href="../../../about/">About</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PHP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../php/composer/">Composer</a>
+    <a href="../../composer/">Composer</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -65,15 +65,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../php/laravel/Installation/">Installation</a>
+    <a href="../Installation/">Installation</a>
 </li>
             
 <li >
-    <a href="../php/laravel/Homestead/">Homestead</a>
+    <a href="../Homestead/">Homestead</a>
 </li>
             
-<li >
-    <a href="../php/laravel/Routing/">Routing</a>
+<li class="active">
+    <a href="./">Routing</a>
 </li>
     </ul>
   </li>
@@ -83,15 +83,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../php/course/Composer/">Composer</a>
+    <a href="../../course/Composer/">Composer</a>
 </li>
             
 <li >
-    <a href="../php/course/Laravel/">Laravel</a>
+    <a href="../../course/Laravel/">Laravel</a>
 </li>
             
 <li >
-    <a href="../php/course/PHPUnit/">PHPUnit</a>
+    <a href="../../course/PHPUnit/">PHPUnit</a>
 </li>
     </ul>
   </li>
@@ -106,22 +106,22 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../vcs/git/config/">Git 設定</a>
+    <a href="../../../vcs/git/config/">Git 設定</a>
 </li>
             
 <li >
-    <a href="../vcs/git/basic/">Git 基礎</a>
+    <a href="../../../vcs/git/basic/">Git 基礎</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux 使用手冊 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li class="active">
-    <a href="./">Linux 指令</a>
+<li >
+    <a href="../../../linux_shell/">Linux 指令</a>
 </li>
                                 </ul>
                             </li>
@@ -130,7 +130,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
+    <a href="../../../Easy_Markdown_with_VS_Code/">Easy Markdown with VS Code</a>
 </li>
                                 </ul>
                             </li>
@@ -143,12 +143,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../vcs/git/basic/">
+                                <a rel="next" href="../Homestead/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../Easy_Markdown_with_VS_Code/">
+                                <a rel="prev" href="../../course/Composer/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -160,35 +160,53 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#linux-shell">linux shell</a></li>
-            <li><a href="#_1">基礎指令</a></li>
-            <li><a href="#_2">目錄</a></li>
-            <li><a href="#_3">快捷鍵</a></li>
+        <li class="main active"><a href="#_1">路由</a></li>
+            <li><a href="#_2">路由動作</a></li>
+            <li><a href="#csrf">CSRF 防護</a></li>
+            <li><a href="#_3">表單方法欺騙</a></li>
+            <li><a href="#_4">暫存</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="linux-shell">linux shell</h1>
-<h2 id="_1">基礎指令</h2>
-<ul>
-<li>目錄操作： <code>ls</code>, <code>cd</code>, <code>pwd</code>, <code>mkdir</code>, <code>rmdir</code></li>
-<li>檔案操作： <code>cp</code>, <code>rm</code>, <code>mv</code></li>
-<li>檔案內容： <code>cat [file]</code>, <code>more [file]</code>, <code>less [file]</code></li>
-</ul>
-<h2 id="_2">目錄</h2>
-<ul>
-<li><code>/</code>: 跟目錄</li>
-<li><code>~</code>: home</li>
-<li><code>.</code>: now dir</li>
-<li><code>..</code>: 上一層目錄</li>
-<li><code>-</code>: 上一次的工作目錄</li>
-</ul>
-<h2 id="_3">快捷鍵</h2>
-<ul>
-<li>[Ctrl]+[u] 清除單行指令</li>
-<li>[Ctrl]+[l]`: 清空畫面</li>
-<li>[shift]+[PageUp], [shift]+[PageDown]： 上下移動螢幕畫面</li>
-</ul></div>
+<h1 id="_1">路由</h1>
+<p>可以將網址分配給 <code>Controller</code> 或是直接顯示 <code>View</code></p>
+<h2 id="_2">路由動作</h2>
+<pre><code class="php">Route::get($uri, $callback);
+Route::post($uri, $callback);
+Route::put($uri, $callback);
+Route::patch($uri, $callback);
+Route::delete($uri, $callback);
+Route::options($uri, $callback);
+
+# 多個動作
+Route::match(['get', 'post'], '/', function () {
+    //
+});
+
+# 所有動作
+Route::any('foo', function () {
+    //
+});
+</code></pre>
+
+<h2 id="csrf">CSRF 防護</h2>
+<p>HTTP 動作為 POST, PUT 或 DELETE 時，HTML from 需加上 CSRF token</p>
+<p><a href="https://laravel.com/docs/master/csrf">CSRF Protection - Laravel - The PHP Framework For Web Artisans</a></p>
+<h2 id="_3">表單方法欺騙</h2>
+<p>HTML from 不支援 PUT, PATCH 或 DELETE</p>
+<p>手動在 from 添加</p>
+<pre><code class="html">&lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;PUT&quot;&gt;
+</code></pre>
+
+<p>或是使用 helper function <code>method_field</code> 來產生</p>
+<h2 id="_4">暫存</h2>
+<pre><code class="sh"># 查看所有路由
+php artisan route:list
+
+# 建立 Controller
+php artisan make:controller TestController
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
@@ -196,11 +214,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
