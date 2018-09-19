@@ -20,3 +20,4 @@ nav:
       - 'Linux 指令': 'linux_shell.md'
     - Course:
       - 'Easy Markdown with VS Code': 'Easy_Markdown_with_VS_Code.md'
+    - Static Site: 'static-site'
