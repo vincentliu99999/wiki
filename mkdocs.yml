@@ -1,5 +1,6 @@
 site_name: wiki
-pages:
+theme: 'journal'
+nav:
     - Home: index.md
     - About: about.md
     - PHP:
@@ -7,6 +8,7 @@ pages:
       - Laravel:
         - 'Installation': 'php/laravel/Installation.md'
         - 'Homestead': 'php/laravel/Homestead.md'
+        - 'Routing': 'php/laravel/Routing.md'
       - Course:
         - 'Composer': 'php/course/Composer.md'
         - 'Laravel': 'php/course/Laravel.md'
@@ -19,18 +21,3 @@ pages:
       - 'Linux 指令': 'linux_shell.md'
     - Course:
       - 'Easy Markdown with VS Code': 'Easy_Markdown_with_VS_Code.md'
-theme: 'material'
-markdown_extensions:
-  - pymdownx.arithmatex
-  - pymdownx.betterem(smart_enable=all)
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist(custom_checkbox=true)
-  - pymdownx.tilde
