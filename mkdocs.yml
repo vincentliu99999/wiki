@@ -2,7 +2,6 @@ site_name: wiki
 theme: 'journal'
 nav:
     - Home: index.md
-    - About: about.md
     - PHP:
       - 'Composer': 'php/composer.md'
       - Laravel:
