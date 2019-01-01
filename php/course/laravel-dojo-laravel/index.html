@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>PHPUnit - wiki</title>
+        <title>【Laravel道場系列 II】Laravel框架簡介及實務展示 - wiki</title>
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -80,15 +80,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../Composer/">Composer</a>
-</li>
-            
-<li >
-    <a href="../Laravel/">Laravel</a>
+    <a href="../laravel-dojo-composer/">【Laravel道場系列 I】Composer基礎入門與實戰應用</a>
 </li>
             
 <li class="active">
-    <a href="./">PHPUnit</a>
+    <a href="./">【Laravel道場系列 II】Laravel框架簡介及實務展示</a>
+</li>
+            
+<li >
+    <a href="../laravel-dojo-phpunit/">【Laravel道場系列 III】PHPUnit測試入門與Laravel測試功能簡介</a>
 </li>
     </ul>
   </li>
@@ -137,12 +137,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../Laravel/">
+                                <a rel="next" href="../laravel-dojo-composer/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../../../vcs/git/config/">
+                                <a rel="prev" href="../laravel-dojo-phpunit/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -154,87 +154,95 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#laravel-iiiphpunitlaravel">【Laravel道場系列 III】PHPUnit測試入門與Laravel測試功能簡介</a></li>
-            <li><a href="#_1">測試方法</a></li>
-            <li><a href="#annotation">annotation</a></li>
-            <li><a href="#code-coverage">code coverage</a></li>
-            <li><a href="#laravel">Laravel</a></li>
-            <li><a href="#_2">範例: 爬台銀黃金牌價</a></li>
+        <li class="main active"><a href="#laravel-iilaravel">【Laravel道場系列 II】Laravel框架簡介及實務展示</a></li>
+            <li><a href="#_1">開發環境</a></li>
+            <li><a href="#composer">Composer</a></li>
+            <li><a href="#artisan">artisan</a></li>
+            <li><a href="#route">Route</a></li>
+            <li><a href="#blade">Blade</a></li>
             <li><a href="#reference">reference</a></li>
-            <li><a href="#reference-php-function">reference - PHP function</a></li>
-            <li><a href="#referece-vscode">referece - VsCode</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="laravel-iiiphpunitlaravel">【Laravel道場系列 III】PHPUnit測試入門與Laravel測試功能簡介</h1>
+<h1 id="laravel-iilaravel">【Laravel道場系列 II】Laravel框架簡介及實務展示</h1>
+<p>follow psr, plenty library</p>
+<h2 id="_1">開發環境</h2>
+<p>Laravel 5.5
+HTTP server suppory rewrite
+contain plenty library</p>
+<p>Mac default case-unsensitive
+solution: Homestead</p>
+<h3 id="homestead-local">Homestead - local 的開發環境</h3>
+<p>folder: 掛載資料夾
+site: setting document root</p>
+<pre><code class="sh">vagrant up # port forwarding, mount local folder
+vagrant up --provision # 有加新的 site 時需要
+vagrant ssh # 連接虛擬機, require ssh key
+</code></pre>
+
+<p>注意事項</p>
 <ul>
-<li>沒有寫測試的開發方式: F5</li>
-<li>TDD開發方式</li>
-<li>Laravel開發方式</li>
+<li>安裝完要重啟</li>
+<li>Mac 的 timemachine 要排除 Homestead</li>
+<li>Homestead 頗耗電</li>
 </ul>
-<h2 id="_1">測試方法</h2>
-<p>單元測試: test one class
-整合測試: test between class
-驗收測試: test by browser, selenium</p>
-<pre><code class="sh">composer require phpunit/phpunit
-composer require mockery/mockery # 例如網路資料先下載
+<h2 id="composer">Composer</h2>
+<pre><code class="sh"># 建立專案
+composer create-project laravel/laravel blog --prefer-dist # 頗慢
+laravel new blog # 利用 laravel/installer, composer.lock 已產生，速度比較快
 </code></pre>
 
-<p>generate phpunit.xml</p>
-<pre><code class="sh">vendor/bin/phpunit --generate-configuration # 產生測試設定檔
-vendor/bin/phpunit tests/AssertionsTest # 執行 test case
-php -S localhost:81 # start server
+<p>/public/: 對外公開資料夾
+/public/index.php: 程式進入點
+/app/: 大部分的PHP，PSR-4 對應 namespace</p>
+<h2 id="artisan">artisan</h2>
+<p>在 project folder 中使用</p>
+<pre><code class="sh">artisan env # 目前環境
 </code></pre>
 
+<h3 id="db-migration">DB migration</h3>
 <ol>
-<li>autoload</li>
-<li><code>/tests</code>: Test 結尾檔案用來寫測試程式</li>
-<li><code>/src</code></li>
+<li>建立新增&amp;還原計畫</li>
+<li>GUI確認結果</li>
 </ol>
-<pre><code class="php">assertEquals // 驗證值
-test_assert_same // 驗證型態
+<pre><code class="sh">artisan make:migration create_{name}_table # 新增 migration 檔案
+php artisan make:migration create_employees_table --create=employees ## 範例: 新增 table
+php artisan make:migration add_test_column_in_employees_table --table=employees ## 範例: 加欄位
+artisan mirgate # 開始 migrate
+artisan migrate:rollback # 上一個批次的動作還原
 </code></pre>
 
-<h2 id="annotation">annotation</h2>
-<p>@depends
-@test: phpunit 測試 function 不加 test 也行，打中文也行</p>
-<h2 id="code-coverage">code coverage</h2>
-<h3 id="mock">mock</h3>
-<ul>
-<li>Dummy: 不需使用，但要存在才能測試</li>
-<li>stub: input, output</li>
-</ul>
-<p>常用方法</p>
-<ol>
-<li>shouldReceive</li>
-<li>andReturn</li>
-</ol>
-<h2 id="laravel">Laravel</h2>
-<ul>
-<li>feature</li>
-<li>unit by dusk</li>
-<li>brwowser</li>
-</ul>
-<p>by sqllite</p>
-<p>RefreshDatabase
-透過 instance 來注入</p>
-<h2 id="_2">範例: 爬台銀黃金牌價</h2>
-<ul>
-<li><a href="https://github.com/recca0120/mockery_demo">recca0120/mockery_demo</a></li>
-</ul>
+<pre><code class="php">$table-&gt;timestamp('publish_at');
+$table-&gt;softDeletes(); // 自動新增欄位: deleted_at
+$table-&gt;timestamps(); // 自動新增欄位: created_at, updated_at
+</code></pre>
+
+<p>env helper function 會先去 .evn 找，找不到才會用預設值</p>
+<h3 id="seeding-">Seeding - 新增測試資料</h3>
+<p>DatabaseSeeder
+資料真實性</p>
+<pre><code class="sh">artisan make:seeder {seeder_name}
+artisan make:model {model_name}
+artisan db:seed # 倒資料，建議可以先清除資料
+</code></pre>
+
+<h2 id="route">Route</h2>
+<p>開始寫程式&amp;debug的地方
+通常會由 Controller 接手
+用 <code>$data</code> 回傳給 view</p>
+<pre><code class="sh">artisan make:controller {model}Controller
+artisan make:controller {model}Controller --resource ## 建立預設方法
+</code></pre>
+
+<h2 id="blade">Blade</h2>
+<p>Model 取名為 單數</p>
+<p>Mass assignment: fillable(建議使用), guarded</p>
 <h2 id="reference">reference</h2>
 <ul>
-<li><a href="https://github.com/recca0120">recca0120 (Recca Tsai)</a></li>
-</ul>
-<h2 id="reference-php-function">reference - PHP function</h2>
-<ul>
-<li><a href="http://php.net/manual/en/function.file-get-contents.php">PHP: file_get_contents - Manual</a></li>
-<li><a href="http://php.net/manual/en/function.preg-match.php">PHP: preg_match - Manual</a></li>
-</ul>
-<h2 id="referece-vscode">referece - VsCode</h2>
-<ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit">VSCode-PHPUnit&#32;-&#32;Visual&#32;Studio&#32;Marketplace</a></li>
+<li><a href="https://laravel.com/docs/5.5/homestead">Laravel Homestead - Laravel - The PHP Framework For Web Artisans</a></li>
+<li><a href="https://www.vagrantup.com/downloads.html">Download - Vagrant by HashiCorp</a></li>
+<li><a href="https://packalyst.com/">Packalyst :: Packages for Laravel</a></li>
 </ul></div>
         </div>
 
