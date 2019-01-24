@@ -2,10 +2,23 @@
 
 ## 安裝
 
-* 使用 [Homebrew](https://brew.sh)
+* Mac 使用 [Homebrew](https://brew.sh)
 
 ```sh
 brew install mkdocs
+```
+
+* Windows 請用 python or chocolatey
+
+```shell
+# python
+python get-pip.py
+pip install --upgrade pip
+pip install mkdocs
+mkdocs --version
+
+# chocolatey
+choco install mkdocs
 ```
 
 ## 建立知識庫
