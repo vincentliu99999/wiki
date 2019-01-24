@@ -18,5 +18,9 @@ nav:
         - 'Git 基礎': 'vcs/git/basic.md'
     - Linux 使用手冊:
       - 'Linux 指令': 'linux_shell.md'
-    - Course: 'online-course'
-    - Static Site: 'static-site'
+    - Document:
+      - 'Pandoc': 'document/pandoc.md'
+      - 'Easy Markdown with VS Code': 'document/easy-markdown-with-vscode.md'
+    - Static Site:
+      - 'Mkdocs': 'static-site/mkdocs.md'
+      - 'Hexo': 'static-site/hexo.md'
