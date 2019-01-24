@@ -1,4 +1,4 @@
-site_name: wiki
+site_name: Vincent's wiki
 theme: 'journal'
 nav:
     - Home: index.md
