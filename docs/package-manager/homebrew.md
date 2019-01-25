@@ -36,10 +36,23 @@ brew search 工具
 exercism
 mkdocs
 pandoc
-pandoc README.md -f markdown -t html -s -o README.html
 homebrew/php/php71
 wget
 zsh-autosuggestions
+```
+
+[Exercism](https://exercism.io/): coding 練習
+
+```shell
+https://exercism.io/my/solutions/03b4014b56a94705ab430a01fb7764e6
+# download exercise
+exercism download --exercise=hello-world --track=php
+
+# run testcase
+phpunit hello-world/hello-world_test.php
+
+# submit solution
+exercism submit ./hello-world/hello-world.php
 ```
 
 ## 工具
