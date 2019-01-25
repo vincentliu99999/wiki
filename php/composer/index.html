@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Vincent's wiki</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Composer - Vincent's wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,26 +39,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">Vincent's wiki</a>
+                    <a class="navbar-brand" href="../..">Vincent's wiki</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Home</a>
+                            <li >
+                                <a href="../..">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Document <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="document/pandoc/">Pandoc</a>
+    <a href="../../document/pandoc/">Pandoc</a>
 </li>
                                     
 <li >
-    <a href="document/easy-markdown-with-vscode/">Easy Markdown with VS Code</a>
+    <a href="../../document/easy-markdown-with-vscode/">Easy Markdown with VS Code</a>
 </li>
                                 </ul>
                             </li>
@@ -67,7 +67,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="linux_shell/">Linux 指令</a>
+    <a href="../../linux_shell/">Linux 指令</a>
 </li>
                                 </ul>
                             </li>
@@ -76,11 +76,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="package-manager/homebrew/">Homebrew</a>
+    <a href="../../package-manager/homebrew/">Homebrew</a>
 </li>
                                     
 <li >
-    <a href="package-manager/npm/">NPM</a>
+    <a href="../../package-manager/npm/">NPM</a>
 </li>
                                 </ul>
                             </li>
@@ -89,20 +89,20 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="git/config/">Git 設定</a>
+    <a href="../../git/config/">Git 設定</a>
 </li>
                                     
 <li >
-    <a href="git/basic/">Git 基礎</a>
+    <a href="../../git/basic/">Git 基礎</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PHP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="php/composer/">Composer</a>
+<li class="active">
+    <a href="./">Composer</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -110,15 +110,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="php/laravel/Installation/">Installation</a>
+    <a href="../laravel/Installation/">Installation</a>
 </li>
             
 <li >
-    <a href="php/laravel/Homestead/">Homestead</a>
+    <a href="../laravel/Homestead/">Homestead</a>
 </li>
             
 <li >
-    <a href="php/laravel/Routing/">Routing</a>
+    <a href="../laravel/Routing/">Routing</a>
 </li>
     </ul>
   </li>
@@ -129,11 +129,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="static-site/mkdocs/">Mkdocs</a>
+    <a href="../../static-site/mkdocs/">Mkdocs</a>
 </li>
                                     
 <li >
-    <a href="static-site/hexo/">Hexo</a>
+    <a href="../../static-site/hexo/">Hexo</a>
 </li>
                                 </ul>
                             </li>
@@ -145,13 +145,13 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="../../git/basic/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="document/pandoc/">
+                                <a rel="prev" href="../laravel/Installation/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -163,16 +163,43 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#wiki">攻城獅的 wiki</a></li>
+        <li class="main active"><a href="#composer">Composer</a></li>
+            <li><a href="#_1">常用指令</a></li>
+            <li><a href="#packagist">套件 Packagist</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="wiki">攻城獅的 wiki</h1>
+<h1 id="composer">Composer</h1>
+<h2 id="_1">常用指令</h2>
+<pre><code class="shell">composer self-update # 更新 Composer
+composer show # 列出安裝的 package
+composer validate # 驗證 composer.json
+</code></pre>
+
+<h2 id="packagist">套件 <a href="https://packagist.org/">Packagist</a></h2>
+<p><a href="https://github.com/thephpleague/oauth2-client">thephpleague/oauth2-client</a></p>
+<h3 id="debugger">debugger</h3>
 <ul>
-<li><a href="https://github.com/kamranahmedse/developer-roadmap">學習路線圖</a></li>
-<li><a href="https://github.com/goodjack/developer-roadmap-chinese">學習路線圖-中文版</a></li>
-</ul></div>
+<li><a href="http://127.0.0.1:8000/debug/phpdebugbar.php">http://127.0.0.1:8000/debug/phpdebugbar.php</a></li>
+<li><a href="http://127.0.0.1:8000/debug/tracy.php">http://127.0.0.1:8000/debug/tracy.php</a></li>
+<li><a href="http://127.0.0.1:8000/debug/var_dumper.php">http://127.0.0.1:8000/debug/var_dumper.php</a></li>
+</ul>
+<h3 id="php_codesniffer"><a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP_CodeSniffer</a></h3>
+<p>檢查 coding style 是否符合 PSR 規範</p>
+<p>常用指令</p>
+<pre><code class="shell">phpcs -i # 列舉 coding style
+phpcs --standard=PSR1 -e # 查看 coding style 會做哪些檢茶
+
+phpcs --config-show # 檢查設定
+phpcs --config-set default_standard PSR2 # 設定用 PSR-2 檢查 coding style
+phpcs --config-set colors 1 # 設定報表言顏色(預設不會上色)
+phpcs --config-set show_progress 1 # 檢查時顯示進度
+
+phpcs . # 針對目錄前目錄下的檔案檢查 coding style
+phpcbf phpdebugbar.php # 修復單一檔案
+phpcbf . # 修復目錄下所有檔案
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
@@ -180,11 +207,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -252,8 +279,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-01-25 14:55:56
--->
