@@ -1,5 +1,7 @@
 # Chocolately
 
+Windows 版的 Homebrew
+
 ## Package
 
 *.nuspec xml version

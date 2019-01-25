@@ -9,6 +9,7 @@ nav:
       - 'Linux 指令': 'linux_shell.md'
     - 套件管理:
        - 'Homebrew': 'package-manager/homebrew.md'
+       - 'Chocolately': 'package-manager/chocolately.md'
        - 'NPM': 'package-manager/npm.md'
     - Git:
       - 'Git 設定': 'git/config.md'
