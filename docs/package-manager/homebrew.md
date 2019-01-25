@@ -29,7 +29,7 @@ brew cask list
 
 ![brew config](https://i.imgur.com/NIpJ6Hm.png)
 
-```shell=
+```shell
 brew search 工具
 
 # search result

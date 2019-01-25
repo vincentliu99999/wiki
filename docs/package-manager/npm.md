@@ -10,7 +10,7 @@ Node.js 裡面就包含了 npm
 - mac `brew install node`
 - windows [download](https://nodejs.org/en/download/)
 
-```shell=
+```shell
 node -v # 確認 Node.js 已安裝
 npm -v # 確認 npm 已安裝
 npm start
@@ -39,7 +39,7 @@ npm install yo -g
 
 ### [Plato](https://github.com/es-analysis/plato): 原始碼視覺化
 
-```shell=
+```shell
 npm install -g plato # install module
 plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report 
 ```
