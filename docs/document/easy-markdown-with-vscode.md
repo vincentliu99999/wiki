@@ -10,7 +10,7 @@
 * markdownlint
 * markdown-emoji
 
-![VS Code Markdown Extension](/images/vs_code_markdown_extension.png)
+![VS Code Markdown Extension](images/vs_code_markdown_extension.png)
 
 ## VS Code Setting
 
@@ -42,7 +42,7 @@ Tootsie roll cookie toffee halvah jelly gummi bears chocolate bar caramels. Pudd
 
 只要你會選取文字加上按右鍵，VS Code可以讓你很輕鬆地作轉換
 
-![Toggle Text Format](/images/Vs_code_toggle_text_format.png)
+![Toggle Text Format](images/Vs_code_toggle_text_format.png)
 
 *我是粗線條的粗體字*  
 _我是斜斜的斜體字_  
