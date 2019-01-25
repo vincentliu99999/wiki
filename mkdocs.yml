@@ -2,19 +2,23 @@ site_name: Vincent's wiki
 theme: 'journal'
 nav:
     - Home: index.md
+    - Document:
+      - 'Pandoc': 'document/pandoc.md'
+      - 'Easy Markdown with VS Code': 'document/easy-markdown-with-vscode.md'
+    - Linux 使用手冊:
+      - 'Linux 指令': 'linux_shell.md'
+    - 套件管理:
+       - 'Homebrew': 'package-manager/homebrew.md'
+       - 'NPM': 'package-manager/npm.md'
+    - Git:
+      - 'Git 設定': 'git/config.md'
+      - 'Git 基礎': 'git/basic.md'
     - PHP:
+      - Composer: 'php/composer.md'
       - Laravel:
         - 'Installation': 'php/laravel/Installation.md'
         - 'Homestead': 'php/laravel/Homestead.md'
         - 'Routing': 'php/laravel/Routing.md'
-    - Git:
-      - 'Git 設定': 'git/config.md'
-      - 'Git 基礎': 'git/basic.md'
-    - Linux 使用手冊:
-      - 'Linux 指令': 'linux_shell.md'
-    - Document:
-      - 'Pandoc': 'document/pandoc.md'
-      - 'Easy Markdown with VS Code': 'document/easy-markdown-with-vscode.md'
     - Static Site:
       - 'Mkdocs': 'static-site/mkdocs.md'
       - 'Hexo': 'static-site/hexo.md'

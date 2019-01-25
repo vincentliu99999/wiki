@@ -41,5 +41,5 @@ npm install yo -g
 
 ```shell
 npm install -g plato # install module
-plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report 
+plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report
 ```
