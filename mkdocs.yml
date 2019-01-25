@@ -3,15 +3,10 @@ theme: 'journal'
 nav:
     - Home: index.md
     - PHP:
-      - 'Composer': 'php/composer.md'
       - Laravel:
         - 'Installation': 'php/laravel/Installation.md'
         - 'Homestead': 'php/laravel/Homestead.md'
         - 'Routing': 'php/laravel/Routing.md'
-      - Course:
-        - '【Laravel道場系列 I】Composer基礎入門與實戰應用': 'php/course/laravel-dojo-composer.md'
-        - '【Laravel道場系列 II】Laravel框架簡介及實務展示': 'php/course/laravel-dojo-laravel.md'
-        - '【Laravel道場系列 III】PHPUnit測試入門與Laravel測試功能簡介': 'php/course/laravel-dojo-phpunit.md'
     - Git:
       - 'Git 設定': 'git/config.md'
       - 'Git 基礎': 'git/basic.md'
