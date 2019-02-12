@@ -70,6 +70,16 @@ mkdocs gh-deploy
 
 ### 主題
 
-* [Material theme](https://github.com/squidfunk/mkdocs-material) 因為有文件需要用到emoji，所以改用
+#### [Material theme](https://github.com/squidfunk/mkdocs-material) 支援 emoji
+
+```shell
+pip install mkdocs-material
+```
 
 安裝後要啟用[PyMdown Extensions](http://squidfunk.github.io/mkdocs-material/extensions/pymdown/)
+
+#### [MkDocs Bootstrap Theme](http://mkdocs.github.io/mkdocs-bootswatch/)
+
+```shell
+pip install mkdocs-bootswatch
+```
