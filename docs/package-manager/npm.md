@@ -43,3 +43,14 @@ npm install yo -g
 npm install -g plato # install module
 plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report
 ```
+
+## 設定
+
+```shell
+# 查看設定
+npm config list
+
+# 設定 npm install proxy
+npm config set proxy http://proxy.company.com:8080 # http
+npm config set https-proxy http://proxy.company.com:8080 # https
+```
