@@ -1,5 +1,13 @@
 # [MkDocs](http://www.mkdocs.org/)
 
+常用指令
+
+```shell
+mkdocs new [dir]
+mkdocs build --clean
+mkdocs gh-deploy
+```
+
 ## 安裝
 
 * Mac 使用 [Homebrew](https://brew.sh)
