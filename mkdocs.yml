@@ -1,5 +1,5 @@
 site_name: Vincent's wiki
-theme: 'journal'
+theme: 'readable'
 nav:
     - Home: index.md
     - 文件:
