@@ -12,7 +12,7 @@
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -173,6 +173,8 @@
         <li class="main active"><a href="#npm">npm</a></li>
             <li><a href="#_1">安裝</a></li>
             <li><a href="#command-line">command line</a></li>
+            <li><a href="#node-package">Node Package</a></li>
+            <li><a href="#_2">設定</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -194,17 +196,14 @@ npm start
 </code></pre>
 
 <h2 id="command-line">command line</h2>
-<p>```=shell
-npm list -g --depth=0 # list global package
-npm install npm@latest -g # 更新</p>
-<pre><code>
-## [Node Package](https://www.npmjs.com/)
+<pre><code class="shell">npm list -g --depth=0 # list global package
+npm install npm@latest -g # 更新
+</code></pre>
 
-[TLDR-pages](https://www.npmjs.com/package/tldr)
-[cloc](https://www.npmjs.com/package/cloc)
-
-```shell
-npm install bower -g # package manager
+<h2 id="node-package"><a href="https://www.npmjs.com/">Node Package</a></h2>
+<p><a href="https://www.npmjs.com/package/tldr">TLDR-pages</a>
+<a href="https://www.npmjs.com/package/cloc">cloc</a></p>
+<pre><code class="shell">npm install bower -g # package manager
 npm install cloc -g # 計算原始碼行數
 npm install doctoc -g # 為 markdown 建立目錄
 npm install tldr -g # 社群維護的 man page
@@ -215,6 +214,15 @@ npm install yo -g
 <h3 id="plato"><a href="https://github.com/es-analysis/plato">Plato</a>: 原始碼視覺化</h3>
 <pre><code class="shell">npm install -g plato # install module
 plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report
+</code></pre>
+
+<h2 id="_2">設定</h2>
+<pre><code class="shell"># 查看設定
+npm config list
+
+# 設定 npm install proxy
+npm config set proxy http://proxy.company.com:8080 # http
+npm config set https-proxy http://proxy.company.com:8080 # https
 </code></pre></div>
         </div>
 
@@ -224,7 +232,7 @@ plato -r -d report src # 分析 /src 中的 js，產生分析報告於 /report
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>

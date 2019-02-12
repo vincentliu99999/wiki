@@ -12,7 +12,7 @@
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -245,10 +245,14 @@ mkdocs build --clean # Removing documentation
 </code></pre>
 
 <h3 id="_4">主題</h3>
-<ul>
-<li><a href="https://github.com/squidfunk/mkdocs-material">Material theme</a> 因為有文件需要用到emoji，所以改用</li>
-</ul>
-<p>安裝後要啟用<a href="http://squidfunk.github.io/mkdocs-material/extensions/pymdown/">PyMdown Extensions</a></p></div>
+<h4 id="material-theme-emoji"><a href="https://github.com/squidfunk/mkdocs-material">Material theme</a> 支援 emoji</h4>
+<pre><code class="shell">pip install mkdocs-material
+</code></pre>
+
+<p>安裝後要啟用<a href="http://squidfunk.github.io/mkdocs-material/extensions/pymdown/">PyMdown Extensions</a></p>
+<h4 id="mkdocs-bootstrap-theme"><a href="http://mkdocs.github.io/mkdocs-bootswatch/">MkDocs Bootstrap Theme</a></h4>
+<pre><code class="shell">pip install mkdocs-bootswatch
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
@@ -257,7 +261,7 @@ mkdocs build --clean # Removing documentation
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
