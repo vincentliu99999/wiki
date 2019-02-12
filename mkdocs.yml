@@ -14,8 +14,8 @@ nav:
         - 'Git 基礎': 'git/basic.md'
       - 'Linux 指令': 'linux_shell.md'
       - 套件管理:
-        - 'Homebrew': 'package-manager/homebrew.md'
-        - 'Chocolately': 'package-manager/chocolately.md'
+        - 'Homebrew for mac': 'package-manager/homebrew.md'
+        - 'Chocolately for windows': 'package-manager/chocolately.md'
         - 'NPM': 'package-manager/npm.md'
     - PHP:
       - Composer: 'php/composer.md'
