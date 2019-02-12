@@ -18,7 +18,7 @@ npm start
 
 ## command line
 
-```=shell
+```shell
 npm list -g --depth=0 # list global package
 npm install npm@latest -g # 更新
 ```
