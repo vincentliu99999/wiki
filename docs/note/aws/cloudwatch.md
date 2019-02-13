@@ -65,4 +65,5 @@ sudo vim /var/awslogs/etc/proxy.conf
 
 ## Reference
 
-[CloudWatch Logs Agent Reference](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html) agent 設定檔說明
+- [Quick Start: Install and Configure the CloudWatch Logs Agent on a Running EC2 Linux Instance](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html)
+- [CloudWatch Logs Agent Reference](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html) agent 設定檔說明
