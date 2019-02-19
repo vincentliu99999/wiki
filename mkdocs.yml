@@ -9,6 +9,7 @@ nav:
         - 'Mkdocs': 'static-site/mkdocs.md'
         - 'Hexo': 'static-site/hexo.md'
     - 必備工具:
+      - '常用開發工具': 'dev-tools.md'
       - Git:
         - 'Git 設定': 'git/config.md'
         - 'Git 基礎': 'git/basic.md'
