@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Temp - Vincent's wiki</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>CloudWatch - Vincent's wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">Vincent's wiki</a>
+                    <a class="navbar-brand" href="../..">Vincent's wiki</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,18 +47,18 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">Home</a>
+                                <a href="../..">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">文件 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../document/pandoc/">Pandoc</a>
+    <a href="../../document/pandoc/">Pandoc</a>
 </li>
                                     
 <li >
-    <a href="../document/easy-markdown-with-vscode/">Easy Markdown with VS Code</a>
+    <a href="../../document/easy-markdown-with-vscode/">Easy Markdown with VS Code</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -66,11 +66,11 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../static-site/mkdocs/">Mkdocs</a>
+    <a href="../../static-site/mkdocs/">Mkdocs</a>
 </li>
             
 <li >
-    <a href="../static-site/hexo/">Hexo</a>
+    <a href="../../static-site/hexo/">Hexo</a>
 </li>
     </ul>
   </li>
@@ -80,22 +80,26 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">必備工具 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li >
+    <a href="../../dev-tools/">常用開發工具</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#">Git</a>
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../git/config/">Git 設定</a>
+    <a href="../../git/config/">Git 設定</a>
 </li>
             
 <li >
-    <a href="../git/basic/">Git 基礎</a>
+    <a href="../../git/basic/">Git 基礎</a>
 </li>
     </ul>
   </li>
                                     
 <li >
-    <a href="../linux_shell/">Linux 指令</a>
+    <a href="../../linux_shell/">Linux 指令</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -103,15 +107,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../package-manager/homebrew/">Homebrew</a>
+    <a href="../../package-manager/homebrew/">Homebrew for mac</a>
 </li>
             
 <li >
-    <a href="../package-manager/chocolately/">Chocolately</a>
+    <a href="../../package-manager/chocolately/">Chocolately for windows</a>
 </li>
             
 <li >
-    <a href="../package-manager/npm/">NPM</a>
+    <a href="../../package-manager/npm/">NPM</a>
 </li>
     </ul>
   </li>
@@ -122,7 +126,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../php/composer/">Composer</a>
+    <a href="../../php/composer/">Composer</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -130,15 +134,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../php/laravel/Installation/">Installation</a>
+    <a href="../../php/laravel/Installation/">Installation</a>
 </li>
             
 <li >
-    <a href="../php/laravel/Homestead/">Homestead</a>
+    <a href="../../php/laravel/Homestead/">Homestead</a>
 </li>
             
 <li >
-    <a href="../php/laravel/Routing/">Routing</a>
+    <a href="../../php/laravel/Routing/">Routing</a>
 </li>
     </ul>
   </li>
@@ -160,12 +164,90 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#cloudwatch">CloudWatch</a></li>
+            <li><a href="#cloudwatch-agent">CloudWatch Agent</a></li>
+            <li><a href="#reference">Reference</a></li>
+            <li><a href="#archive">Archive</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
+<h1 id="cloudwatch">CloudWatch</h1>
+<h2 id="cloudwatch-agent">CloudWatch Agent</h2>
+<h3 id="iam-role">IAM Role</h3>
+<pre><code class="json">{
+  &quot;Version&quot;: &quot;2012-10-17&quot;,
+  &quot;Statement&quot;: [
+    {
+      &quot;Effect&quot;: &quot;Allow&quot;,
+      &quot;Action&quot;: [
+        &quot;logs:CreateLogGroup&quot;,
+        &quot;logs:CreateLogStream&quot;,
+        &quot;logs:PutLogEvents&quot;,
+        &quot;logs:DescribeLogStreams&quot;
+    ],
+      &quot;Resource&quot;: [
+        &quot;arn:aws:logs:*:*:*&quot;
+    ]
+  }
+ ]
+}
+</code></pre>
+
+<h3 id="cloudwatch-logs-agent">安裝 CloudWatch Logs agent</h3>
+<pre><code class="shell"># 下載並單獨執行
+cd ~
+curl https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py -O
+curl https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/AgentDependencies.tar.gz -O
+tar xvf AgentDependencies.tar.gz -C /tmp/
+sudo python ./awslogs-agent-setup.py --region ap-northeast-1 --dependency-path /tmp/AgentDependencies # enter 就好
+
+# optional: proxy 設定
+sudo vim /var/awslogs/etc/proxy.conf
+
+/var/awslogs/bin/awslogs-version.sh | less # 版本查詢
+sudo service awslogs start # 啟動 awslogs 服務
+sudo chkconfig awslogs on # 每次系統啟動時啟動 awslogs 服務
+ps -ef|grep awslog # 檢查process是否有啟動
+less /var/log/awslogs.log
+</code></pre>
+
+<p>指令</p>
+<pre><code class="shell"># Linux 2: systemctl start awslogsd
+service awslogs status # /etc/init.d/awslogs status
+service awslogs stop # /etc/init.d/awslogs stop
+service awslogs start # /etc/init.d/awslogs start
+service awslogs restart # /etc/init.d/awslogs restart
+</code></pre>
+
+<h3 id="log">Log</h3>
+<p>設定 - script 安裝</p>
 <ul>
-<li><a href="http://www.cupcakeipsum.com/#/paragraphs/5/length/long/with_love/false/start_with_cupcake/false/seed/e608ca6c845fc246154359ca8267e6ac461b6e6ac1bbd877e7a9d7dac3b6319a">cupcakeipsum</a></li>
+<li>/var/awslogs/etc/awslogs.conf</li>
+<li>/var/awslogs/etc/aws.conf 地區設定</li>
+<li>/var/awslogs/etc/</li>
+<li>/var/log/awslogs.log</li>
+<li>/var/log/awslogs-agent-setup.log</li>
+</ul>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html">Quick Start: Install and Configure the CloudWatch Logs Agent on a Running EC2 Linux Instance</a></li>
+<li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html">CloudWatch Logs Agent Reference</a> agent 設定檔說明</li>
+</ul>
+<h2 id="archive">Archive</h2>
+<p>yum 安裝</p>
+<pre><code class="shell">sudo yum update -y
+sudo yum install -y awslogs
+# 預設 region 為 us-east-1
+sudo vim /etc/awslogs/awscli.conf # region 改為 ap-northeast-1
+</code></pre>
+
+<p>設定 - yum 安裝</p>
+<ul>
+<li>/etc/awslogs/awslogs.conf</li>
+<li>/etc/awslogs/awscli.conf 地區設定</li>
+<li>/etc/awslogs/</li>
+<li>/var/log/awslogs.log</li>
 </ul></div>
         </div>
 
@@ -174,11 +256,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

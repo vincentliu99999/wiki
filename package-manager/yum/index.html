@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Git 設定 - Vincent's wiki</title>
+        <title>Yum - Vincent's wiki</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -76,7 +76,7 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">必備工具 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -88,12 +88,12 @@
     <a href="#">Git</a>
     <ul class="dropdown-menu">
             
-<li class="active">
-    <a href="./">Git 設定</a>
+<li >
+    <a href="../../git/config/">Git 設定</a>
 </li>
             
 <li >
-    <a href="../basic/">Git 基礎</a>
+    <a href="../../git/basic/">Git 基礎</a>
 </li>
     </ul>
   </li>
@@ -107,15 +107,15 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../package-manager/homebrew/">Homebrew for mac</a>
+    <a href="../homebrew/">Homebrew for mac</a>
 </li>
             
 <li >
-    <a href="../../package-manager/chocolately/">Chocolately for windows</a>
+    <a href="../chocolately/">Chocolately for windows</a>
 </li>
             
 <li >
-    <a href="../../package-manager/npm/">NPM</a>
+    <a href="../npm/">NPM</a>
 </li>
     </ul>
   </li>
@@ -156,16 +156,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../../dev-tools/">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../basic/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -174,61 +164,21 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#git">Git 設定</a></li>
-            <li><a href="#_1">安裝</a></li>
-            <li><a href="#_2">環境設定</a></li>
+        <li class="main active"><a href="#yum">Yum</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="git">Git 設定</h1>
-<h2 id="_1">安裝</h2>
-<p><a href="https://git-scm.com/">Git</a></p>
-<h2 id="_2">環境設定</h2>
-<h3 id="_3">設定</h3>
-<p>所有設定會記錄在 <code>home</code> 目錄下的 <code>.gitconfig</code></p>
-<p>如果 project 需要自訂的話，請在該目錄下新增 <code>.gitconfig</code></p>
-<h4 id="-">設定方式 － 透過指令</h4>
-<pre><code class="sh"># 查看設定
-git config --list
+<h1 id="yum">Yum</h1>
+<pre><code class="shell">yum update
 
-# username &amp; email
-git config --global user.name &quot;username&quot;
-git config --global user.email &quot;username@example.com.tw&quot;
+yum install
+yum upgrade
+yum remove &lt;package&gt;
 
-# console 上顏色
-git config --global color.diff auto
-git config --global color.status auto
-git config --global color.branch auto
-git config --global color.log auto
-</code></pre>
-
-<h4 id="-_1">設定方式 － 編輯檔案</h4>
-<p>用你習慣用編輯器來開啟 <code>home</code> 目錄下的 <code>.gitconfig</code> 編輯吧</p>
-<pre><code class="log">[user]
-        name = username
-        email = username@example.com.tw
-[core]
-        editor = vim
-        ignorecase = false
-[push]
-        default = simple
-[color]
-        diff = auto
-        status = auto
-        branch = auto
-        log = auto
-[alias]
-        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
-</code></pre>
-
-<h4 id="alias">別名設定（alias）</h4>
-<p>git 指令打久了，每次都要打很多字覺得很煩時可以設定別名喔</p>
-<pre><code class="sh">git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.aa add --all
-git config --global alias.ci commit
-git config --global alias.st status
+yum list
+yum list updates
+yum list installed
 </code></pre></div>
         </div>
 
