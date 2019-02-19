@@ -59,7 +59,7 @@ service awslogs restart # /etc/init.d/awslogs restart
 設定 - script 安裝
 
 - /var/awslogs/etc/awslogs.conf
-- /var/awslogs/etc/awscli.conf 地區設定
+- /var/awslogs/etc/aws.conf 地區設定
 - /var/awslogs/etc/
 - /var/log/awslogs.log
 - /var/log/awslogs-agent-setup.log
