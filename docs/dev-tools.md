@@ -13,6 +13,7 @@
 - [Unicode](https://www.online-toolz.com/tools/text-unicode-entities-convertor.php)
 - [SAML](https://www.samltool.com/decode.php)
 - [URL](https://meyerweb.com/eric/tools/dencoder/)
+- [JWT Debugger](https://jwt.io/)
 
 ## Online IDE
 
