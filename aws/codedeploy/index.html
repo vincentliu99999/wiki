@@ -148,6 +148,31 @@
   </li>
                                 </ul>
                             </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">AWS <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../aws/">簡介</a>
+</li>
+                                    
+<li >
+    <a href="../ec2/">EC2</a>
+</li>
+                                    
+<li >
+    <a href="../system-manager/">System Manager</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">CodeDeploy</a>
+</li>
+                                    
+<li >
+    <a href="../cloudwatch/">CloudWatch</a>
+</li>
+                                </ul>
+                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -156,6 +181,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="../system-manager/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../cloudwatch/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -166,6 +201,7 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#codedeploy">CodeDeploy</a></li>
             <li><a href="#log">Log</a></li>
+            <li><a href="#copy-deployment">copy deployment</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -177,7 +213,14 @@
 <li>agent install, update log: <code>/tmp/codedeploy-agent.update.log</code></li>
 <li>deployment log: <code>/opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log</code></li>
 <li>Appspec script log: <code>/opt/codedeploy-agent/deployment-root/deployment-group-ID/deployment-ID/logs/scripts.log</code></li>
-</ul></div>
+</ul>
+<h2 id="copy-deployment">copy deployment</h2>
+<p>前一次 depolyment script 失敗時使用</p>
+<pre><code class="shell">cd /opt/codedeploy-agent/deployment-root/
+rm -rf *
+
+less /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
