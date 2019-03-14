@@ -24,3 +24,9 @@ nav:
         - 'Installation': 'php/laravel/Installation.md'
         - 'Homestead': 'php/laravel/Homestead.md'
         - 'Routing': 'php/laravel/Routing.md'
+    - AWS:
+      - 簡介: 'aws/aws.md'
+      - EC2: 'aws/ec2.md'
+      - System Manager: 'aws/system-manager.md'
+      - CodeDeploy: 'aws/codedeploy.md'
+      - CloudWatch: 'aws/cloudwatch.md'
